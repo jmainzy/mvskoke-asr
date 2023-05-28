@@ -1,0 +1,4 @@
+fash-an253-b sph2pipe -f wav -p -c 1 ./downloads/an4/wav/an4_clstk/fash/an253-fash-b.sph |
+fbbh-cen8-b sph2pipe -f wav -p -c 1 ./downloads/an4/wav/an4_clstk/fbbh/cen8-fbbh-b.sph |
+mwhw-an152-b sph2pipe -f wav -p -c 1 ./downloads/an4/wav/an4_clstk/mwhw/an152-mwhw-b.sph |
+mwhw-cen8-b sph2pipe -f wav -p -c 1 ./downloads/an4/wav/an4_clstk/mwhw/cen8-mwhw-b.sph |

@@ -1,2 +1,1 @@
-fcaw-cen8-b sph2pipe -f wav -p -c 1 ./downloads/an4/wav/an4test_clstk/fcaw/cen8-fcaw-b.sph |
-mmxg-cen8-b sph2pipe -f wav -p -c 1 ./downloads/an4/wav/an4test_clstk/mmxg/cen8-mmxg-b.sph |
+0e08fe2a-e0b2-4bcc-9810-a2f20bd866f1 /home2/arzou/espnet/egs2/mvskoke-asr/asr1/data/wav/mus08005.wav

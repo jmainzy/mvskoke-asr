@@ -1,0 +1,2 @@
+fcaw-cen8-b_org  sph2pipe -f wav -p -c 1 ./downloads/an4/wav/an4test_clstk/fcaw/cen8-fcaw-b.sph |
+mmxg-cen8-b_org  sph2pipe -f wav -p -c 1 ./downloads/an4/wav/an4test_clstk/fcaw/cen8-fcaw-b.sph | sph2pipe -f wav -p -c 1 ./downloads/an4/wav/an4test_clstk/mmxg/cen8-mmxg-b.sph |
