@@ -6,10 +6,10 @@ set -u
 set -o pipefail
 
 # download model
-model_file=fleurs_asr.pth
-model_url=https://huggingface.co/espnet/wanchichen_fleurs_asr_conformer_hier_lid_utt/blob/main/exp/asr_train_asr_raw_all_bpe6500_sp/valid.acc.ave_3best.pth
+model_file=fleurs_model.pth
+model_url=https://huggingface.co/espnet/wanchichen_fleurs_asr_conformer_hier_lid_utt/resolve/main/exp/asr_train_asr_raw_all_bpe6500_sp/valid.acc.ave_3best.pth
 if [ ! -e downloads/$model_file ]; then
-    wget $model_url -O downloads/$model_file
+    wget "${model_url}" -O "downloads/${model_file}"
 fi
 
 # data prep

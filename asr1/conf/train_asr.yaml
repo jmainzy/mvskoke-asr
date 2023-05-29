@@ -54,4 +54,4 @@ patience: 0
 scheduler: noamlr
 scheduler_conf:
   warmup_steps: 1000
-max_epoch: 1
+max_epoch: 5
