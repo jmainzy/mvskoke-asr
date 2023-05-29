@@ -33,7 +33,7 @@ train_dev="train_dev"
 if [ ${stage} -le 1 ] && [ ${stop_stage} -ge 1 ]; then
     log "stage 1: Untar your musdata.tar.gz"
     # tar -xvf downloads/musdata_small_0105.tar.gz 
-    tar -xvf downloads/musdata_tiny_05.tar.gz 
+    tar -xvzf downloads/musdata.tar.gz 
 
     # if [ ! -e downloads/ ]; then
     #     tar -xvf downloads.tar.gz
