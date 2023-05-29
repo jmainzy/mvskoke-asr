@@ -128,6 +128,10 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-exp/
-dump/
-data/
+asr1/dump/
+asr1/hub/
+asr1/data/wav/
+asr1/exp/*
+!asr1/exp/asr_transfer_learning
+asr1/exp/asr_transfer_learning/*
+!asr1/exp/asr_transfer_learning/inference_asr_model_valid.acc.ave
