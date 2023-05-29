@@ -5,21 +5,37 @@ best_model_criterion:
 - - valid
   - acc
   - max
+
+encoder: conformer
+encoder_conf:
+    output_size: 512
+    attention_heads: 8
+    linear_units: 2048
+    num_blocks: 12
+    dropout_rate: 0.1
+    positional_dropout_rate: 0.1
+    attention_dropout_rate: 0.1
+    input_layer: conv2d2
+    normalize_before: true
+    macaron_style: true
+    pos_enc_layer_type: "rel_pos"
+    selfattention_layer_type: "rel_selfattn"
+    activation_type: "swish"
+    use_cnn_module:  true
+    cnn_module_kernel: 31
+    interctc_layer_idx: [3, 6, 9,]
+    interctc_use_conditioning: true
+
 decoder: transformer
 decoder_conf:
-  dropout_rate: 0.1
-  input_layer: embed
-  linear_units: 2048
-  num_blocks: 6
-encoder: transformer
-encoder_conf:
-  attention_dropout_rate: 0.0
-  attention_heads: 4
-  dropout_rate: 0.1
-  input_layer: conv2d
-  linear_units: 2048
-  num_blocks: 12
-  output_size: 256
+    attention_heads: 8
+    linear_units: 2048
+    num_blocks: 6
+    dropout_rate: 0.1
+    positional_dropout_rate: 0.1
+    self_attention_dropout_rate: 0.1
+    src_attention_dropout_rate: 0.1
+
 grad_clip: 5
 init: xavier_uniform
 keep_nbest_models: 1
@@ -28,6 +44,9 @@ model_conf:
   ctc_weight: 0.3
   length_normalized_loss: false
   lsm_weight: 0.1
+
+
+# optimization related
 optim: adam
 optim_conf:
   lr: 1.0
@@ -35,3 +54,4 @@ patience: 0
 scheduler: noamlr
 scheduler_conf:
   warmup_steps: 1000
+max_epoch: 1
