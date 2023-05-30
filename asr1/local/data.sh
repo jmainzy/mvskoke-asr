@@ -29,11 +29,11 @@ fi
 
 train_set="train_nodev"
 train_dev="train_dev"
+data_set="mini-mixed.tar.gz"
 
 if [ ${stage} -le 1 ] && [ ${stop_stage} -ge 1 ]; then
-    log "stage 1: Untar your musdata.tar.gz"
-    # tar -xvf downloads/musdata_small_0105.tar.gz 
-    tar -xvzf downloads/musdata.tar.gz 
+    log "stage 1: Untar downloads/${data_set}"
+    tar -Pxvzf downloads/${data_set}
 
     # if [ ! -e downloads/ ]; then
     #     tar -xvf downloads.tar.gz
@@ -49,6 +49,7 @@ if [ ${stage} -le 2 ] && [ ${stop_stage} -ge 2 ]; then
     for f in data/*/wav.scp; do
         #sed 's/old_string/new_string/'
         sed -i 's?\.\.?'`pwd`\/data'?' $f
+        sed -i 's/\_Source\.annotations\.wav/\.wav/' $f
     done
 
     # amy: commented this out, since we are not using an4 data anymore

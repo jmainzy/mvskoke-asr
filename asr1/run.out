@@ -1,60 +1,37 @@
-2023-05-29T07:36:33 (asr.sh:277:main) ./asr.sh --stage 1 --stop_stage 13 --lang mus --train_set train_nodev --valid_set train_dev --test_sets test --token_type char --asr_config conf/train_asr.yaml --use_lm false --asr_tag transfer_learning --pretrained_model downloads/fleurs_model.pth --ignore_init_mismatch true --ngpu 0
-2023-05-29T07:36:35 (asr.sh:560:main) Skipped stages:  6 7 8 9 14 15 16 
-2023-05-29T07:36:35 (asr.sh:567:main) Stage 1: Data preparation for data/train_nodev, data/train_dev, etc.
-2023-05-29T07:36:35 (data.sh:19:main) local/data.sh 
-2023-05-29T07:36:36 (data.sh:34:main) stage 1: Untar your musdata.tar.gz
-./data/
-./data/wav/
-./data/test/
-./data/train/
-./data/train/corpus.txt
-./data/train/utt2spk
-./data/train/wav.scp
-./data/train/text
-./data/train/segments
-./data/test/corpus.txt
-./data/test/utt2spk
-./data/test/wav.scp
-./data/test/text
-./data/test/segments
-./data/wav/mus16028.wav
-2023-05-29T07:36:39 (data.sh:45:main) stage 2: Data preparation
-utils/subset_data_dir.sh: reducing #utt from 213 to 1
-utils/subset_data_dir.sh: reducing #utt from 213 to 212
-2023-05-29T07:36:41 (data.sh:100:main) Successfully finished. [elapsed=6s]
-2023-05-29T07:36:41 (asr.sh:591:main) Skip stage 2: Speed perturbation
-2023-05-29T07:36:41 (asr.sh:610:main) Stage 3: Format wav.scp: data/ -> dump/raw
+2023-05-30T04:25:53 (asr.sh:277:main) ./asr.sh --local_data_opts --stage 1 --stage 3 --stop_stage 13 --ngpu 1 --nj 40 --inference_nj 40 --use_lm false --token_type bpe --nbpe 500 --feats_type raw --asr_config conf/train_asr.yaml --inference_config conf/decode_asr.yaml --train_set train_nodev --valid_set train_dev --test_sets test --inference_asr_model valid.acc.best.pth
+2023-05-30T04:25:54 (asr.sh:559:main) Skipped stages:  6 7 8 9 14 15 16 
+2023-05-30T04:25:54 (asr.sh:609:main) Stage 3: Format wav.scp: data/ -> dump/raw
 utils/copy_data_dir.sh: copied data from data/train_nodev to dump/raw/org/train_nodev
 utils/validate_data_dir.sh: WARNING: you have only one speaker.  This probably a bad idea.
    Search for the word 'bold' in http://kaldi-asr.org/doc/data_prep.html
    for more information.
 utils/validate_data_dir.sh: Successfully validated data-directory dump/raw/org/train_nodev
-2023-05-29T07:36:41 (format_wav_scp.sh:45:main) scripts/audio/format_wav_scp.sh --nj 32 --cmd run.pl --audio-format flac --fs 16k --segments data/train_nodev/segments --multi-columns-input false --multi-columns-output false data/train_nodev/wav.scp dump/raw/org/train_nodev
-2023-05-29T07:36:42 (format_wav_scp.sh:96:main) [info]: using data/train_nodev/segments
-2023-05-29T07:36:56 (format_wav_scp.sh:152:main) Successfully finished. [elapsed=15s]
+2023-05-30T04:25:55 (format_wav_scp.sh:45:main) scripts/audio/format_wav_scp.sh --nj 40 --cmd run.pl --audio-format flac --fs 16k --segments data/train_nodev/segments --multi-columns-input false --multi-columns-output false data/train_nodev/wav.scp dump/raw/org/train_nodev
+2023-05-30T04:25:56 (format_wav_scp.sh:96:main) [info]: using data/train_nodev/segments
+2023-05-30T04:26:04 (format_wav_scp.sh:152:main) Successfully finished. [elapsed=9s]
 utils/copy_data_dir.sh: copied data from data/train_dev to dump/raw/org/train_dev
 utils/validate_data_dir.sh: WARNING: you have only one speaker.  This probably a bad idea.
    Search for the word 'bold' in http://kaldi-asr.org/doc/data_prep.html
    for more information.
 utils/validate_data_dir.sh: Successfully validated data-directory dump/raw/org/train_dev
-2023-05-29T07:36:57 (format_wav_scp.sh:45:main) scripts/audio/format_wav_scp.sh --nj 32 --cmd run.pl --audio-format flac --fs 16k --segments data/train_dev/segments --multi-columns-input false --multi-columns-output false data/train_dev/wav.scp dump/raw/org/train_dev
-2023-05-29T07:36:58 (format_wav_scp.sh:96:main) [info]: using data/train_dev/segments
-2023-05-29T07:37:00 (format_wav_scp.sh:152:main) Successfully finished. [elapsed=3s]
+2023-05-30T04:26:04 (format_wav_scp.sh:45:main) scripts/audio/format_wav_scp.sh --nj 40 --cmd run.pl --audio-format flac --fs 16k --segments data/train_dev/segments --multi-columns-input false --multi-columns-output false data/train_dev/wav.scp dump/raw/org/train_dev
+2023-05-30T04:26:05 (format_wav_scp.sh:96:main) [info]: using data/train_dev/segments
+2023-05-30T04:26:06 (format_wav_scp.sh:152:main) Successfully finished. [elapsed=2s]
 utils/copy_data_dir.sh: copied data from data/test to dump/raw/test
 utils/validate_data_dir.sh: WARNING: you have only one speaker.  This probably a bad idea.
    Search for the word 'bold' in http://kaldi-asr.org/doc/data_prep.html
    for more information.
 utils/validate_data_dir.sh: Successfully validated data-directory dump/raw/test
-2023-05-29T07:37:01 (format_wav_scp.sh:45:main) scripts/audio/format_wav_scp.sh --nj 32 --cmd run.pl --audio-format flac --fs 16k --segments data/test/segments --multi-columns-input false --multi-columns-output false data/test/wav.scp dump/raw/test
-2023-05-29T07:37:03 (format_wav_scp.sh:96:main) [info]: using data/test/segments
-2023-05-29T07:37:11 (format_wav_scp.sh:152:main) Successfully finished. [elapsed=10s]
-2023-05-29T07:37:11 (asr.sh:795:main) Stage 4: Remove long/short data: dump/raw/org -> dump/raw
+2023-05-30T04:26:06 (format_wav_scp.sh:45:main) scripts/audio/format_wav_scp.sh --nj 40 --cmd run.pl --audio-format flac --fs 16k --segments data/test/segments --multi-columns-input false --multi-columns-output false data/test/wav.scp dump/raw/test
+2023-05-30T04:26:07 (format_wav_scp.sh:96:main) [info]: using data/test/segments
+2023-05-30T04:26:11 (format_wav_scp.sh:152:main) Successfully finished. [elapsed=5s]
+2023-05-30T04:26:11 (asr.sh:794:main) Stage 4: Remove long/short data: dump/raw/org -> dump/raw
 utils/copy_data_dir.sh: copied data from dump/raw/org/train_nodev to dump/raw/train_nodev
 utils/validate_data_dir.sh: WARNING: you have only one speaker.  This probably a bad idea.
    Search for the word 'bold' in http://kaldi-asr.org/doc/data_prep.html
    for more information.
 utils/validate_data_dir.sh: Successfully validated data-directory dump/raw/train_nodev
-fix_data_dir.sh: kept 205 utterances out of 212
+fix_data_dir.sh: kept 966 utterances out of 1028
 fix_data_dir.sh: old files are kept in dump/raw/train_nodev/.backup
 utils/copy_data_dir.sh: copied data from dump/raw/org/train_dev to dump/raw/train_dev
 utils/validate_data_dir.sh: WARNING: you have only one speaker.  This probably a bad idea.
@@ -63,10 +40,54 @@ utils/validate_data_dir.sh: WARNING: you have only one speaker.  This probably a
 utils/validate_data_dir.sh: Successfully validated data-directory dump/raw/train_dev
 fix_data_dir.sh: kept all 1 utterances.
 fix_data_dir.sh: old files are kept in dump/raw/train_dev/.backup
-2023-05-29T07:37:15 (asr.sh:916:main) Stage 5: Generate character level token_list from dump/raw/org/train_nodev/text
-2023-05-29T07:37:26 (asr.sh:1183:main) Stage 10: ASR collect stats: train_set=dump/raw/train_nodev, valid_set=dump/raw/train_dev
-2023-05-29T07:37:26 (asr.sh:1234:main) Generate 'exp/asr_stats_raw_mus_char/run.sh'. You can resume the process from stage 10 using this script
-2023-05-29T07:37:26 (asr.sh:1238:main) ASR collect-stats started... log: 'exp/asr_stats_raw_mus_char/logdir/stats.*.log'
-2023-05-29T07:37:43 (asr.sh:1296:main) Stage 11: ASR Training: train_set=dump/raw/train_nodev, valid_set=dump/raw/train_dev
-2023-05-29T07:37:43 (asr.sh:1388:main) Generate 'exp/asr_transfer_learning/run.sh'. You can resume the process from stage 11 using this script
-2023-05-29T07:37:43 (asr.sh:1392:main) ASR training started... log: 'exp/asr_transfer_learning/train.log'
+2023-05-30T04:26:12 (asr.sh:872:main) Stage 5: Generate token_list from dump/raw/org/train_nodev/text using BPE
+2023-05-30T04:26:12 (asr.sh:1182:main) Stage 10: ASR collect stats: train_set=dump/raw/train_nodev, valid_set=dump/raw/train_dev
+2023-05-30T04:26:12 (asr.sh:1233:main) Generate 'exp/asr_stats_raw_bpe500/run.sh'. You can resume the process from stage 10 using this script
+2023-05-30T04:26:13 (asr.sh:1237:main) ASR collect-stats started... log: 'exp/asr_stats_raw_bpe500/logdir/stats.*.log'
+2023-05-30T04:26:43 (asr.sh:1295:main) Stage 11: ASR Training: train_set=dump/raw/train_nodev, valid_set=dump/raw/train_dev
+2023-05-30T04:26:43 (asr.sh:1387:main) Generate 'exp/asr_train_asr_raw_bpe500/run.sh'. You can resume the process from stage 11 using this script
+2023-05-30T04:26:43 (asr.sh:1391:main) ASR training started... log: 'exp/asr_train_asr_raw_bpe500/train.log'
+2023-05-30T04:29:15 (asr.sh:1460:main) Stage 12: Decoding: training_dir=exp/asr_train_asr_raw_bpe500
+2023-05-30T04:29:15 (asr.sh:1488:main) Generate 'exp/asr_train_asr_raw_bpe500/decode_asr_asr_model_valid.acc.best/run.sh'. You can resume the process from stage 12 using this script
+2023-05-30T04:29:15 (asr.sh:1553:main) Decoding started... log: 'exp/asr_train_asr_raw_bpe500/decode_asr_asr_model_valid.acc.best/test/logdir/asr_inference.*.log'
+2023-05-30T04:36:11 (asr.sh:1569:main) Calculating RTF & latency... log: 'exp/asr_train_asr_raw_bpe500/decode_asr_asr_model_valid.acc.best/test/logdir/calculate_rtf.log'
+2023-05-30T04:36:11 (asr.sh:1601:main) Stage 13: Scoring
+2023-05-30T04:36:26 (asr.sh:1687:main) Write cer result in exp/asr_train_asr_raw_bpe500/decode_asr_asr_model_valid.acc.best/test/score_cer/result.txt
+|  SPKR      |  # Snt    # Wrd  |  Corr      Sub      Del      Ins       Err     S.Err  |
+|  Sum/Avg   |   115      5021  |  94.9      5.1      0.0    1848.3    1853.4    100.0  |
+2023-05-30T04:37:46 (asr.sh:1687:main) Write wer result in exp/asr_train_asr_raw_bpe500/decode_asr_asr_model_valid.acc.best/test/score_wer/result.txt
+|  SPKR      |  # Snt   # Wrd  |  Corr      Sub       Del      Ins       Err     S.Err  |
+|  Sum/Avg   |   115      786  |   2.9     97.1       0.0    1876.1    1973.2    100.0  |
+2023-05-30T04:37:55 (asr.sh:1687:main) Write ter result in exp/asr_train_asr_raw_bpe500/decode_asr_asr_model_valid.acc.best/test/score_ter/result.txt
+|  SPKR      |  # Snt    # Wrd  |  Corr      Sub       Del      Ins      Err     S.Err  |
+|  Sum/Avg   |   115      1957  |   9.8     90.0       0.2    982.6    1072.8    100.0  |
+<!-- Generated by scripts/utils/show_asr_result.sh -->
+# RESULTS
+## Environments
+- date: `Tue May 30 04:37:56 PDT 2023`
+- python version: `3.9.16 (main, Mar  8 2023, 14:00:05)  [GCC 11.2.0]`
+- espnet version: `espnet 202304`
+- pytorch version: `pytorch 2.0.1+cu117`
+- Git hash: ``
+  - Commit date: ``
+
+## exp/asr_train_asr_raw_bpe500
+### WER
+
+|dataset|Snt|Wrd|Corr|Sub|Del|Ins|Err|S.Err|
+|---|---|---|---|---|---|---|---|---|
+|decode_asr_asr_model_valid.acc.best/test|115|786|2.9|97.1|0.0|1876.1|1973.2|100.0|
+
+### CER
+
+|dataset|Snt|Wrd|Corr|Sub|Del|Ins|Err|S.Err|
+|---|---|---|---|---|---|---|---|---|
+|decode_asr_asr_model_valid.acc.best/test|115|5021|94.9|5.1|0.0|1848.3|1853.4|100.0|
+
+### TER
+
+|dataset|Snt|Wrd|Corr|Sub|Del|Ins|Err|S.Err|
+|---|---|---|---|---|---|---|---|---|
+|decode_asr_asr_model_valid.acc.best/test|115|1957|9.8|90.0|0.2|982.6|1072.8|100.0|
+
+2023-05-30T04:37:59 (asr.sh:1838:main) Successfully finished. [elapsed=726s]

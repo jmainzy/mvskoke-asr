@@ -1,1 +1,0 @@
-./asr.sh --stage 1 --stop_stage 13 --lang mus --train_set train_nodev --valid_set train_dev --test_sets test --token_type char --asr_config conf/train_asr.yaml --use_lm false --asr_tag transfer_learning --pretrained_model downloads/fleurs_model.pth --ignore_init_mismatch true --ngpu 0 --stage 12 "$@"; exit $?
