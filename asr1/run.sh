@@ -13,21 +13,19 @@ asr_config=conf/train_asr.yaml
 inference_config=conf/decode_asr.yaml
 
 # download model
-model_file=fleurs_model.pth
-model_url=https://huggingface.co/espnet/wanchichen_fleurs_asr_conformer_hier_lid_utt/resolve/main/exp/asr_train_asr_raw_all_bpe6500_sp/valid.acc.ave_3best.pth
+# model_file=fleurs_model.pth
+# model_url=https://huggingface.co/espnet/wanchichen_fleurs_asr_conformer_hier_lid_utt/resolve/main/exp/asr_train_asr_raw_all_bpe6500_sp/valid.acc.ave_3best.pth
 
-if [ ! -e downloads/$model_file ]; then
-    wget "${model_url}" -O "downloads/${model_file}"
-fi
+# if [ ! -e downloads/$model_file ]; then
+#     wget "${model_url}" -O "downloads/${model_file}"
+# fi
 
     # --pretrained_model downloads/$model_file \
 ./asr.sh \
     --local_data_opts "--stage 1" \
-    --stage 1 \
+    --stage 3 \
     --stop_stage 13 \
-    --ngpu 0 \
-    --nj 40 \
-    --inference_nj 40 \
+    --ngpu 1 \
     --use_lm false \
     --token_type bpe \
     --nbpe 500 \
@@ -39,4 +37,6 @@ fi
     --train_set "${train_set}" \
     --valid_set "${train_dev}" \
     --test_sets "${test_set}" \
+    --gpu_inference true \
+    --min_wav_duration 0.75 \
     --inference_asr_model valid.acc.best.pth "$@"

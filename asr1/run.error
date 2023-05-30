@@ -51,45 +51,41 @@ normalizer_spec {
 denormalizer_spec {}
 trainer_interface.cc(350) LOG(INFO) SentenceIterator is not specified. Using MultiFileSentenceIterator.
 trainer_interface.cc(181) LOG(INFO) Loading corpus: data/token_list/bpe_unigram500/train.txt
-trainer_interface.cc(406) LOG(INFO) Loaded all 1028 sentences
+trainer_interface.cc(406) LOG(INFO) Loaded all 2257 sentences
 trainer_interface.cc(422) LOG(INFO) Adding meta_piece: <unk>
 trainer_interface.cc(422) LOG(INFO) Adding meta_piece: <s>
 trainer_interface.cc(422) LOG(INFO) Adding meta_piece: </s>
 trainer_interface.cc(427) LOG(INFO) Normalizing sentences...
-trainer_interface.cc(536) LOG(INFO) all chars count=50963
-trainer_interface.cc(557) LOG(INFO) Alphabet size=43
+trainer_interface.cc(536) LOG(INFO) all chars count=99770
+trainer_interface.cc(557) LOG(INFO) Alphabet size=40
 trainer_interface.cc(558) LOG(INFO) Final character coverage=1
-trainer_interface.cc(590) LOG(INFO) Done! preprocessed 1028 sentences.
+trainer_interface.cc(590) LOG(INFO) Done! preprocessed 2257 sentences.
 unigram_model_trainer.cc(146) LOG(INFO) Making suffix array...
 unigram_model_trainer.cc(150) LOG(INFO) Extracting frequent sub strings...
-unigram_model_trainer.cc(201) LOG(INFO) Initialized 7371 seed sentencepieces
-trainer_interface.cc(596) LOG(INFO) Tokenizing input sentences with whitespace: 1028
-trainer_interface.cc(607) LOG(INFO) Done! 2865
-unigram_model_trainer.cc(491) LOG(INFO) Using 2865 sentences for EM training
-unigram_model_trainer.cc(507) LOG(INFO) EM sub_iter=0 size=2898 obj=14.2384 num_tokens=8128 num_tokens/piece=2.80469
-unigram_model_trainer.cc(507) LOG(INFO) EM sub_iter=1 size=2538 obj=12.651 num_tokens=8226 num_tokens/piece=3.24113
-unigram_model_trainer.cc(507) LOG(INFO) EM sub_iter=0 size=1900 obj=12.733 num_tokens=8731 num_tokens/piece=4.59526
-unigram_model_trainer.cc(507) LOG(INFO) EM sub_iter=1 size=1898 obj=12.5675 num_tokens=8748 num_tokens/piece=4.60906
-unigram_model_trainer.cc(507) LOG(INFO) EM sub_iter=0 size=1421 obj=13.0267 num_tokens=9559 num_tokens/piece=6.72695
-unigram_model_trainer.cc(507) LOG(INFO) EM sub_iter=1 size=1421 obj=12.8489 num_tokens=9558 num_tokens/piece=6.72625
-unigram_model_trainer.cc(507) LOG(INFO) EM sub_iter=0 size=1064 obj=13.4834 num_tokens=10473 num_tokens/piece=9.84305
-unigram_model_trainer.cc(507) LOG(INFO) EM sub_iter=1 size=1064 obj=13.2968 num_tokens=10472 num_tokens/piece=9.84211
-unigram_model_trainer.cc(507) LOG(INFO) EM sub_iter=0 size=798 obj=13.9284 num_tokens=11419 num_tokens/piece=14.3095
-unigram_model_trainer.cc(507) LOG(INFO) EM sub_iter=1 size=798 obj=13.7607 num_tokens=11423 num_tokens/piece=14.3145
-unigram_model_trainer.cc(507) LOG(INFO) EM sub_iter=0 size=598 obj=14.4481 num_tokens=12368 num_tokens/piece=20.6823
-unigram_model_trainer.cc(507) LOG(INFO) EM sub_iter=1 size=598 obj=14.2905 num_tokens=12367 num_tokens/piece=20.6806
-unigram_model_trainer.cc(507) LOG(INFO) EM sub_iter=0 size=550 obj=14.4739 num_tokens=12667 num_tokens/piece=23.0309
-unigram_model_trainer.cc(507) LOG(INFO) EM sub_iter=1 size=550 obj=14.4295 num_tokens=12667 num_tokens/piece=23.0309
+unigram_model_trainer.cc(201) LOG(INFO) Initialized 11678 seed sentencepieces
+trainer_interface.cc(596) LOG(INFO) Tokenizing input sentences with whitespace: 2257
+trainer_interface.cc(607) LOG(INFO) Done! 4413
+unigram_model_trainer.cc(491) LOG(INFO) Using 4413 sentences for EM training
+unigram_model_trainer.cc(507) LOG(INFO) EM sub_iter=0 size=4159 obj=14.0578 num_tokens=13079 num_tokens/piece=3.14475
+unigram_model_trainer.cc(507) LOG(INFO) EM sub_iter=1 size=3579 obj=12.1498 num_tokens=13195 num_tokens/piece=3.68678
+unigram_model_trainer.cc(507) LOG(INFO) EM sub_iter=0 size=2684 obj=12.1811 num_tokens=13901 num_tokens/piece=5.17921
+unigram_model_trainer.cc(507) LOG(INFO) EM sub_iter=1 size=2682 obj=12.0448 num_tokens=13911 num_tokens/piece=5.1868
+unigram_model_trainer.cc(507) LOG(INFO) EM sub_iter=0 size=2011 obj=12.4245 num_tokens=15078 num_tokens/piece=7.49776
+unigram_model_trainer.cc(507) LOG(INFO) EM sub_iter=1 size=2010 obj=12.2871 num_tokens=15091 num_tokens/piece=7.50796
+unigram_model_trainer.cc(507) LOG(INFO) EM sub_iter=0 size=1507 obj=12.8055 num_tokens=16404 num_tokens/piece=10.8852
+unigram_model_trainer.cc(507) LOG(INFO) EM sub_iter=1 size=1507 obj=12.6582 num_tokens=16403 num_tokens/piece=10.8845
+unigram_model_trainer.cc(507) LOG(INFO) EM sub_iter=0 size=1130 obj=13.229 num_tokens=17912 num_tokens/piece=15.8513
+unigram_model_trainer.cc(507) LOG(INFO) EM sub_iter=1 size=1130 obj=13.0839 num_tokens=17915 num_tokens/piece=15.854
+unigram_model_trainer.cc(507) LOG(INFO) EM sub_iter=0 size=847 obj=13.6896 num_tokens=19450 num_tokens/piece=22.9634
+unigram_model_trainer.cc(507) LOG(INFO) EM sub_iter=1 size=847 obj=13.5443 num_tokens=19449 num_tokens/piece=22.9622
+unigram_model_trainer.cc(507) LOG(INFO) EM sub_iter=0 size=635 obj=14.1801 num_tokens=20968 num_tokens/piece=33.0205
+unigram_model_trainer.cc(507) LOG(INFO) EM sub_iter=1 size=635 obj=14.0424 num_tokens=20974 num_tokens/piece=33.0299
+unigram_model_trainer.cc(507) LOG(INFO) EM sub_iter=0 size=550 obj=14.3627 num_tokens=21652 num_tokens/piece=39.3673
+unigram_model_trainer.cc(507) LOG(INFO) EM sub_iter=1 size=550 obj=14.2997 num_tokens=21652 num_tokens/piece=39.3673
 trainer_interface.cc(685) LOG(INFO) Saving model: data/token_list/bpe_unigram500/bpe.model
 trainer_interface.cc(697) LOG(INFO) Saving vocabs: data/token_list/bpe_unigram500/bpe.vocab
 /home2/jmainz/espnet/tools/anaconda/envs/espnet/bin/python3 /home2/jmainz/espnet/espnet2/bin/aggregate_stats_dirs.py --input_dir exp/asr_stats_raw_bpe500/logdir/stats.1 --output_dir exp/asr_stats_raw_bpe500
-2023-05-30 04:26:43,465 (launch:94) INFO: /home2/jmainz/espnet/tools/anaconda/envs/espnet/bin/python3 /home2/jmainz/espnet/espnet2/bin/launch.py --cmd 'run.pl --name exp/asr_train_asr_raw_bpe500/train.log' --log exp/asr_train_asr_raw_bpe500/train.log --ngpu 1 --num_nodes 1 --init_file_prefix exp/asr_train_asr_raw_bpe500/.dist_init_ --multiprocessing_distributed true -- python3 -m espnet2.bin.asr_train --use_preprocessor true --bpemodel data/token_list/bpe_unigram500/bpe.model --token_type bpe --token_list data/token_list/bpe_unigram500/tokens.txt --non_linguistic_symbols none --cleaner none --g2p none --valid_data_path_and_name_and_type dump/raw/train_dev/wav.scp,speech,sound --valid_shape_file exp/asr_stats_raw_bpe500/valid/speech_shape --resume true --ignore_init_mismatch false --fold_length 80000 --output_dir exp/asr_train_asr_raw_bpe500 --config conf/train_asr.yaml --frontend_conf fs=16k --normalize=global_mvn --normalize_conf stats_file=exp/asr_stats_raw_bpe500/train/feats_stats.npz --train_data_path_and_name_and_type dump/raw/train_nodev/wav.scp,speech,sound --train_shape_file exp/asr_stats_raw_bpe500/train/speech_shape --fold_length 150 --train_data_path_and_name_and_type dump/raw/train_nodev/text,text,text --train_shape_file exp/asr_stats_raw_bpe500/train/text_shape.bpe --valid_data_path_and_name_and_type dump/raw/train_dev/text,text,text --valid_shape_file exp/asr_stats_raw_bpe500/valid/text_shape.bpe
-2023-05-30 04:26:43,618 (launch:348) INFO: log file: exp/asr_train_asr_raw_bpe500/train.log
-/home2/jmainz/espnet/tools/anaconda/envs/espnet/bin/python3 /home2/jmainz/espnet/espnet2/bin/tokenize_text.py -f 2- --input - --output - --cleaner none --token_type char --non_linguistic_symbols none --remove_non_linguistic_symbols true
-/home2/jmainz/espnet/tools/anaconda/envs/espnet/bin/python3 /home2/jmainz/espnet/espnet2/bin/tokenize_text.py -f 2- --input - --output - --token_type char --non_linguistic_symbols none --remove_non_linguistic_symbols true --cleaner none
-/home2/jmainz/espnet/tools/anaconda/envs/espnet/bin/python3 /home2/jmainz/espnet/espnet2/bin/tokenize_text.py -f 2- --input - --output - --cleaner none --token_type word --non_linguistic_symbols none --remove_non_linguistic_symbols true
-/home2/jmainz/espnet/tools/anaconda/envs/espnet/bin/python3 /home2/jmainz/espnet/espnet2/bin/tokenize_text.py -f 2- --input - --output - --token_type word --non_linguistic_symbols none --remove_non_linguistic_symbols true --cleaner none
-/home2/jmainz/espnet/tools/anaconda/envs/espnet/bin/python3 /home2/jmainz/espnet/espnet2/bin/tokenize_text.py -f 2- --input - --output - --cleaner none --token_type bpe --bpemodel data/token_list/bpe_unigram500/bpe.model
-/home2/jmainz/espnet/tools/anaconda/envs/espnet/bin/python3 /home2/jmainz/espnet/espnet2/bin/tokenize_text.py -f 2- --input - --output - --token_type bpe --bpemodel data/token_list/bpe_unigram500/bpe.model --cleaner none
-scripts/utils/show_asr_result.sh: line 40: git: command not found
-scripts/utils/show_asr_result.sh: line 40: git: command not found
+2023-05-30 10:31:30,674 (launch:94) INFO: /home2/jmainz/espnet/tools/anaconda/envs/espnet/bin/python3 /home2/jmainz/espnet/espnet2/bin/launch.py --cmd 'run.pl --name exp/asr_train_asr_raw_bpe500/train.log' --log exp/asr_train_asr_raw_bpe500/train.log --ngpu 1 --num_nodes 1 --init_file_prefix exp/asr_train_asr_raw_bpe500/.dist_init_ --multiprocessing_distributed true -- python3 -m espnet2.bin.asr_train --use_preprocessor true --bpemodel data/token_list/bpe_unigram500/bpe.model --token_type bpe --token_list data/token_list/bpe_unigram500/tokens.txt --non_linguistic_symbols none --cleaner none --g2p none --valid_data_path_and_name_and_type dump/raw/train_dev/wav.scp,speech,sound --valid_shape_file exp/asr_stats_raw_bpe500/valid/speech_shape --resume true --ignore_init_mismatch true --fold_length 80000 --output_dir exp/asr_train_asr_raw_bpe500 --config conf/train_asr.yaml --frontend_conf fs=16k --normalize=global_mvn --normalize_conf stats_file=exp/asr_stats_raw_bpe500/train/feats_stats.npz --train_data_path_and_name_and_type dump/raw/train_nodev/wav.scp,speech,sound --train_shape_file exp/asr_stats_raw_bpe500/train/speech_shape --fold_length 150 --train_data_path_and_name_and_type dump/raw/train_nodev/text,text,text --train_shape_file exp/asr_stats_raw_bpe500/train/text_shape.bpe --valid_data_path_and_name_and_type dump/raw/train_dev/text,text,text --valid_shape_file exp/asr_stats_raw_bpe500/valid/text_shape.bpe
+2023-05-30 10:31:31,035 (launch:348) INFO: log file: exp/asr_train_asr_raw_bpe500/train.log
+Fetching 21 files:   0%|          | 0/21 [00:00<?, ?it/s]Fetching 21 files: 100%|██████████| 21/21 [00:00<00:00, 10691.96it/s]
+run.pl: 32 / 32 failed, log is in exp/espnet/ftshijt_espnet2_asr_puebla_nahuatl_transfer/decode_asr_asr_model_valid.acc.best/test/logdir/asr_inference.*.log

@@ -29,7 +29,7 @@ fi
 
 train_set="train_nodev"
 train_dev="train_dev"
-data_set="mini-mixed.tar.gz"
+data_set="gouge.tar.gz"
 
 if [ ${stage} -le 1 ] && [ ${stop_stage} -ge 1 ]; then
     log "stage 1: Untar downloads/${data_set}"

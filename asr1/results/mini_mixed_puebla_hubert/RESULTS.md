@@ -8,6 +8,8 @@
 - Git hash: `e711fad0490c5a83e8b921bc8805aff8bb7c9c28`
   - Commit date: `Mon May 29 08:40:10 2023 -0700`
 
+Trained 2 epochs on downloaded model.
+
 ## exp/espnet/ftshijt_espnet2_asr_puebla_nahuatl_transfer
 ### WER
 

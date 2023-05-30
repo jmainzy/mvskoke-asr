@@ -34,7 +34,7 @@ optim: adam
 accum_grad: 2
 grad_clip: 5
 patience: 15
-max_epoch: 2
+max_epoch: 3
 optim_conf:
     lr: 1.0
 scheduler: noamlr
