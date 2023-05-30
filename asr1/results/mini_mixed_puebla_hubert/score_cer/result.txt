@@ -1,0 +1,737 @@
+
+
+
+                     SYSTEM SUMMARY PERCENTAGES by SPEAKER                      
+
+,-----------------------------------------------------------------------------------------------------------------.
+|exp/espnet/ftshijt_espnet2_asr_puebla_nahuatl_transfer/decode_asr_asr_model_valid.acc.best/test/score_cer/hyp.trn|
+|-----------------------------------------------------------------------------------------------------------------|
+|   SPKR        |   # Snt       # Wrd    |   Corr          Sub         Del         Ins         Err       S.Err    |
+|---------------+------------------------+------------------------------------------------------------------------|
+|   24745f73    |    115         5021    |   32.3         59.7         8.0        46.9       114.6       100.0    |
+|=================================================================================================================|
+|   Sum/Avg     |    115         5021    |   32.3         59.7         8.0        46.9       114.6       100.0    |
+|=================================================================================================================|
+|     Mean      |  115.0       5021.0    |   32.3         59.7         8.0        46.9       114.6       100.0    |
+|     S.D.      |    0.0         0.0     |    0.0          0.0         0.0         0.0         0.0         0.0    |
+|    Median     |  115.0       5021.0    |   32.3         59.7         8.0        46.9       114.6       100.0    |
+`-----------------------------------------------------------------------------------------------------------------'
+
+
+
+                     SYSTEM SUMMARY PERCENTAGES by SPEAKER                      
+
+,-----------------------------------------------------------------------------------------------------------------.
+|exp/espnet/ftshijt_espnet2_asr_puebla_nahuatl_transfer/decode_asr_asr_model_valid.acc.best/test/score_cer/hyp.trn|
+|-----------------------------------------------------------------------------------------------------------------|
+|   SPKR        |   # Snt      # Wrd    |   Corr          Sub         Del         Ins          Err       S.Err    |
+|---------------+-----------------------+-------------------------------------------------------------------------|
+|   24745f73    |    115        5021    |   1623         2997         401        2357         5755         115    |
+|=================================================================================================================|
+|   Sum         |    115        5021    |   1623         2997         401        2357         5755         115    |
+|=================================================================================================================|
+|     Mean      |  115.0      5021.0    |  1623.0       2997.0      401.0       2357.0       5755.0      115.0    |
+|     S.D.      |    0.0        0.0     |    0.0          0.0         0.0         0.0          0.0         0.0    |
+|    Median     |  115.0      5021.0    |  1623.0       2997.0      401.0       2357.0       5755.0      115.0    |
+`-----------------------------------------------------------------------------------------------------------------'
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   exp/espnet/ftshijt_espnet2_asr_puebla_nahuatl_transfer/decode_asr_asr_model_valid.acc.best/test/score_cer/hyp.trn
+
+Speakers: 
+    0:  24745f73
+
+Speaker sentences   0:  24745f73   #utts: 115
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-03beeff8-41e2-4443-bae2-25eccc36186a)
+Scores: (#C #S #D #I) 0 0 0 4
+REF:  * * * * 
+HYP:  4 - 4 9 
+Eval: I I I I 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-05247bc6-fafc-4709-bd32-cbd2fbda0ce2)
+Scores: (#C #S #D #I) 2 5 0 7
+REF:  * * H I Y O W a * * * ******* * t 
+HYP:  E T T E T T N a N E T <SPACE> 1 t 
+Eval: I I S S S S S   I I I I       I   
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-05e15c81-d85b-4e0f-b164-8c25cf5f35c1)
+Scores: (#C #S #D #I) 9 27 5 6
+REF:  M O   M u S E N <space> *** m * * V <SPACE> U e W V <space> E R A K T   E K K E K ē N <space> E R A   K w V K e * ******* H c * E T  
+HYP:  R ▁ C u * K O <space> ▁ m O N T ▁     C e * T <space> * * O F ▁ O W M V T 9  T <space> O F ▁ O w * L e T <SPACE> 9 c U S ē 
+Eval: S S   S   D S S         I     I I S S       S   D S         D D S S S   S S S S S S  S         S S S   S   D S   I I       S   I S S  
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-06834f79-0536-48d6-99b5-b4f566519595)
+Scores: (#C #S #D #I) 11 16 1 20
+REF:  e * * * * * ** s * *** * * t e <SPACE> E N H   v M k U s * * * * ē *** * * * t <space> * *** F A K v N <SPACE> A   Y V T ē S 
+HYP:  e S A S V T ē s P ▁ O N t e T       T V ▁ v L k * s F T 4 T ē ▁ E F V t <space> I ▁ E S T v M I       ▁ P E R R  O 
+Eval:   I I I I I I    I I   I I     S       S S S     S   D   I I I I    I   I I I           I I   S S S   S S       S   S S S S  S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-07cda249-3d74-4d81-bea3-314ee6d3a122)
+Scores: (#C #S #D #I) 8 24 3 8
+REF:  *** M I <SPACE> Y V H   V <SPACE> M I t <SPACE> M v <SPACE> t O H A H v * * * * W   V <SPACE> t * A t <SPACE> C e Y I Y   e * * N 
+HYP:  ▁ E S ▁     A R ▁ O N       E T t ▁     Y v ******* t 3 R R T v N C E C ▁ O N       t K 1 t ******* K e * T ▁ e M F T 
+Eval: I   S S S       S S S   S S       S S   S       S   D         S S S S   I I I I S   S S         I S   D       S   D S S     I I S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-10f7126d-3fed-4cde-8409-9ab0263ddb22)
+Scores: (#C #S #D #I) 4 8 0 11
+REF:  * * * * H V t v * M <space> * * * * ē m *** * V T ē S 
+HYP:  E T T 3 E T t v F T <space> K E T E M  m ▁ P E R R  O 
+Eval: I I I I S S     I S         I I I I S    I   I S S S  S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-11eff51a-ffe3-4e06-821a-5e095b11a321)
+Scores: (#C #S #D #I) 23 21 8 35
+REF:  N A K e <SPACE> t E t A k U E C E   T v t <SPACE> m V T <SPACE> V c e * * *** * w I ̨ C U s <SPACE> o w ē * t ** * * *** <SPACE> o W ē T <SPACE> o n *** * * * t * * * <SPACE> o * w * * * * * i * * * ** * * * * * * s *** * * E N 
+HYP:  * D H e ******* t * t * k * * V ▁ H v t V       m * - 8       I c e T M ▁ O w E M  V T s ▁     o w ē T t ē C H ▁ M       o * N  E K       o n ▁ M O W t 3 2 9 ▁     o H w E N A N L i T V Y ē T D H D F V s ▁ C U K O 
+Eval: D S S   D         D   D   D D S S   S     S         D S S       S     I I I   I   S S  S S   S              I   I  I I I   S         D S  S S           I   I I I   I I I S         I   I I I I I   I I I I  I I I I I I   I   I I S S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-142ae449-a529-4fa4-a269-7c33e90adcee)
+Scores: (#C #S #D #I) 10 19 5 9
+REF:  * * * S v M M o N <SPACE> N A k <SPACE> M   o W V K E K O t <SPACE> O n t * <SPACE> O N <space> O   W I S e n * *** * * * 
+HYP:  Y E T T v * T o * L       R K k V       ▁ o * * M T 3 I t ******* V n t V S       E T <space> ▁ M V T e n T ▁ M V T 
+Eval: I I I S   D S   D S       S S   S       S     D D S S S S   D       S     I S       S S         S   S S S     I I   I I I 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-1690b0d4-475d-4068-a108-07dfa71f6ce5)
+Scores: (#C #S #D #I) 20 37 3 26
+REF:  *** * * *** m v N <SPACE> I E       N   h ē C I t <SPACE> M   O W e n <SPACE> m O W E N <space> * V n *** E U <SPACE> M v t <SPACE> ē  M V H A Y       ē P I t <space> K   e R R ē t *** * * * t <SPACE> o * * W I   m v * *** * * * t *** * * * *** * * * * S 
+HYP:  ▁ E S ▁ m v T F       T <SPACE> ▁ h ** * V t ą      ▁ A Y e n ******* m - I R T <space> R A n ▁ O W ▁     H v t ą      ▁ A R I T <SPACE> A  H F t <space> ▁ e S E T  t ▁ O M A t ▁     o S K V ▁ m v N ▁ M O M t ▁ M O N ▁ M A K E T 
+Eval: I   I I I       S S       S S       S     D  D S   S       S   S S     D         S S S S         I S   I   S S S       S     S       S   S S S S S       S  S S           S     S S S    I   I I I   S         I I S S       I I   I I I   I   I I I I   I I I I S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-1794253b-c694-49fb-838a-b5c58c4ccff4)
+Scores: (#C #S #D #I) 5 25 0 10
+REF:  ** * * * O   H W E N <SPACE> H E y * * *** * * V  t <SPACE> C V R K e t <SPACE> M V N   <SPACE> H V L A T e * N 
+HYP:  ē T T R ▁ A Y C M ē      S V y A T ▁ O W ē t T       A E H C e t E       T T ▁ O       W T 3 D H e T T 
+Eval: I  I I I S   S S S S S       S S   I I I   I I S    S       S S S S     S       S S S   S       S S S S S   I S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-17b710c1-1443-45de-bab3-7799a3e99bb3)
+Scores: (#C #S #D #I) 4 15 4 1
+REF:  M O W A k E t * <SPACE> O W <SPACE> e M V t ē <SPACE> V P V L   W V 
+HYP:  * * * R k * t K V       E H C       e T E t T  E       T T 4 ▁ O C 
+Eval: D D D S   D   I S       S S S         S S   S  S       S S S S   S S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-19656aba-5f19-4280-aa82-a19034206a9d)
+Scores: (#C #S #D #I) 7 18 3 13
+REF:  F u * L   I Y ē N <space> H O Y A N   ē <SPACE> V ̜  L K e t <SPACE> O   m * * * * ē t *** * O k * * * *** * * 
+HYP:  P u M ▁ O W F  T <space> * * I T ▁ E  M       T ▁ E F e t ******* ▁ m V N 9 2 I  t ▁ N A k T V N ▁ E R 
+Eval: S   I S   S S S  S         D D S S S   S  S       S S   S S     D       S     I I I I S    I   I S   I I I I   I I 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-1a41a196-6e5c-442d-a27e-8b6a4d2d105c)
+Scores: (#C #S #D #I) 3 8 2 4
+REF:  * * A v * C O H S i H O H c *** E N 
+HYP:  E T T v P E E N T i * * T c ▁ S T 
+Eval: I I S   I S S S S   D D S   I   S S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-1e90e085-2364-4024-8242-e8f4ee3232db)
+Scores: (#C #S #D #I) 7 17 5 6
+REF:  M V <SPACE> H V T   e <SPACE> M   V <SPACE> n a * K   e <SPACE> v * L v * * * * K e K O <SPACE> M O N K       ē 
+HYP:  * * ******* * * ▁ e S       ▁ P U       n a Y ▁ e F       v T K v A T A H Y e T L I       T R T <SPACE> 9  
+Eval: D D D       D D S     S       S   S S           I S     S         I S   I I I I S   S S S       S S S S       S  
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-1ef198f3-90f8-4f71-8b23-77781a634242)
+Scores: (#C #S #D #I) 16 29 6 15
+REF:  * * * *** * o * * h * * W   E N <SPACE> C v C k e <SPACE> M   A P O H i C t <SPACE> O W A k S <SPACE> P U k I C  E   T <SPACE> S e P o H Y e K C I c ē * * * * * t <SPACE> o * N 
+HYP:  I T C ▁ M o W T h A Y ▁ S U K       H v L k e T       ▁ C E M 8 i S t ******* * V N k * ******* T L k * ē ▁ M V       O e K o * N e N P V c ē N T L E N t ▁     o S T 
+Eval: I I I I   I   I I   I I S   S S S       S   S     S       S   S S S S   S   D       D S S   D D       S S   D S  S   S S       S   S   D S   S S S      I I I I I   S         I S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-1ef5a306-ba56-44a1-839c-ad47d5a32b7a)
+Scores: (#C #S #D #I) 11 27 1 16
+REF:  * C U F e * *** <SPACE> t A t * * <SPACE> P I H K E   t <SPACE> t A F V <SPACE> H V   T K U   c e * *** * * * <SPACE> k V  C   A K h * * * * * ē C E t * 
+HYP:  A T V P e C ▁ V       t O t K M -       E T T 3 ▁ t O       t M L 9 3       1 ▁ O N ▁ c e M ▁ O N 3 V       k ē ▁ O S h U E R U S ē * F t P 
+Eval: I S S S   I I   S         S   I I S       S S S S S     S         S S S S       S S   S S S       I I   I I I S         S  S   S S   I I I I I    D S   I 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-1f418820-d7b6-4d94-9f36-95b760c6dc6c)
+Scores: (#C #S #D #I) 28 43 4 43
+REF:  H V t * * ē C <SPACE> m U   C V <SPACE> H v t * * * V M  <SPACE> e * * * s * * * * t * * O M O s I s <SPACE> A Y U  s ē <SPACE> M O n K e * * * t <space> M A k * E n * <space> S v P ē Y e t * * <space> E   s * * * * *** T e * * *** * <SPACE> H v * * * p * O <SPACE> R e * * * * * * *** S v W O l *** * I C   E N 
+HYP:  * A t E K V  E M       m ▁ O W E       M v t S R U S ē ▁     e C C A s T 3 E T t A K E T E s A s ******* V T ē s V  N       V E n T e T T N t <space> F E k H O n V <space> W v * ** K e t K V <space> ▁ s U K H V ▁ C e M M ▁ M V       N v S F S p E T ▁     C e M 8 9 T - 4 ▁ H v L V l ▁ O W ▁ O S 
+Eval: D S   I I S  S S         S   S S S       S     I I I S S  S         I I I   I I I I   I I S S S   S   D       S S S    S  S       S S   S   I I I           S S   I S   I         S   D D  S     I I         S     I I I I I   S   I I I   I S       S   I I I   I S S       S   I I I I I I I   S   S S   I   I S S   S S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-217cc956-2682-4edc-88ab-88fa2a7dfbb9)
+Scores: (#C #S #D #I) 0 3 3 0
+REF:  I G N O R E 
+HYP:  * * * A T 6 
+Eval: D D D S S S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-23e42441-ec40-4108-93b8-4bc56abc68ef)
+Scores: (#C #S #D #I) 2 12 2 1
+REF:  Y O H F       V   N i K E t * <SPACE> H ē C A  N 
+HYP:  * N T <SPACE> ▁ H i * Y t 9 U       F U  S ē T 
+Eval: D S S S       S   S   D S   I S       S S  S S  S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-28193743-3f7f-4a8e-bf53-a8d4ccbbb8a5)
+Scores: (#C #S #D #I) 25 40 4 42
+REF:  * * * * * * H v * * t *** V m * <SPACE> H V   Y V t K V   R a N e s *** * * * * <space> * * * *** * * k * * * * O M V k ē <space> * * * H a k * * e N <SPACE> H v t ** * v * * * M  <SPACE> E S   t o M U s e * * * * * * * T <space> P O H K E  N <space> W O H O k A K E t <SPACE> O M E   N 
+HYP:  E T T U E T T v E T t ▁ E m T 3       B ▁ O W t * ▁ N a K e s ▁ M V T T <space> I T T ▁ Y V k V T E C E T T k V  <space> E T T - a k E T e S A       S v t ē S v N R K ē 2       3 ▁ t o L O s e N C U L L I C 2 <space> I T C 8 ē T <space> 9 2 T E k * V I t ******* * T ▁ V 
+Eval: I I I I I I S   I I   I   S   I S       S S   S S   D S   S   S     I   I I I I         I I I I   I I   I I I I S S S   S          I I I S     I I   S S       S     I  I   I I I S  S       S S       S S     I I I I I I I S         S S S S S  S         S S S S   D S S   D       D S S   S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-292062dd-1001-4549-a23c-8d069ec2e0c5)
+Scores: (#C #S #D #I) 9 13 1 24
+REF:  * * O   S a F k * ** * *** * e <SPACE> H e * * * *** * R ē * * N <space> H A       Y   ē t <space> * * * * * * * * * * O W ē s 
+HYP:  E T ▁ N a * k 3 ē T ▁ C e M       M e T I T ▁ O W ē T T 9 <space> 9 <SPACE> ▁ S  t <space> E T T C A K I S A K A N T  s 
+Eval: I I S   S   D   I I  I I   I   S       S   I I I I   I S    I I S         S S       S   S            I I I I I I I I I I S S S    
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-29d3d3fc-0621-40fb-bd6c-af6cc576c2b7)
+Scores: (#C #S #D #I) 12 21 2 33
+REF:  * M o * * * N t *** * * * * * <SPACE> F a * Y ē P a * *** * * t * * * * * * <SPACE> v *** * * * * R ē ̜ P ē t <space> O M v t ē * S <SPACE> H O   P v * * * * * * Y ē N 
+HYP:  V C o K A K E t ▁ S U K H V T       M a T C A  K a T ▁ E S t A K W V N A Y       v ▁ O N E K V B  A  K F  t <space> * * v t ē T I T       T ▁ Y v E M M S I T 4 F  T 
+Eval: I S   I I I S   I   I I I I I S       S   I S S  S   I I   I I   I I I I I I S         I   I I I I S S  S  S S            D D        I S S       S S   S   I I I I I I S S  S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-2f896bc4-e157-4bf9-98bc-d88798cba3c0)
+Scores: (#C #S #D #I) 18 19 7 9
+REF:  e * * s * t O  F v n <SPACE> e S t I <space> T A   T <SPACE> E r A t * *** * E t <space> V R E k O <SPACE> t * A Y   e * * t <SPACE> O N t <SPACE> O M I s 
+HYP:  e S A s V t ē S v n ******* e * t * <space> * ▁ E R       O r 1 t F ▁ O W t <space> P B A k * I       t 1 T ▁ e M I t ******* D F t ******* R R T s 
+Eval:   I I   I   S  S     D         D   D         D S   S S       S   S   I I   I S           S S S   D S         I S S     I I   D       S S   D       S S S   
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-30b40d15-72de-40dd-9912-376a70c503d8)
+Scores: (#C #S #D #I) 17 32 3 24
+REF:  * * H M <SPACE> M M <SPACE> M   O n K S <space> *** * v * ** *** * * * * ******* N e * * *** * * U <SPACE> v * *** n * E U <SPACE> M a t *** v P O   m * ē <space> *** o w I M  V t S <SPACE> c v * K ē ̨ R R   E S E K   o T 
+HYP:  4 - 4 9 K       E T T       ▁ E n * T <space> ▁ H v T ą ▁ A R I T <SPACE> K e T T ▁ M O M P       v T ▁ n A K T ▁     E a t ▁ v * ▁ m V T  <space> ▁ o w * ē T t 9 T       c v W T S  E  N ▁ O M 1 ▁ o N 
+Eval: I I S S S       S S S       S   S   D S         I   I   I I  I   I I I I I       S   I I I   I I S S         I I     I S S S       S     I     D S     I S          I       D S  S   S S           I S S  S  S S   S S S S     S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-312cbfff-05fe-4eb7-81ff-250d0a365ffb)
+Scores: (#C #S #D #I) 11 21 0 11
+REF:  M O   M u * * ******* S E n * * * *** <SPACE> U e W V <SPACE> t ******* a t <SPACE> e s * I k * * E T <SPACE> v Y   ē P V T ē s 
+HYP:  R ▁ C u K O <SPACE> I T n K 1 T ▁ E       H e 1 T F       t <SPACE> a t ▁     e s T A k W V N A Y       v ▁ O  N E M M  s 
+Eval: S S   S   I I I       S S   I I I I   S       S   S S S         I           S           I S   I I S S S         S   S  S S S S    
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-3304f094-95ba-4679-a567-c34fcad128c7)
+Scores: (#C #S #D #I) 34 56 6 39
+REF:  H V t A ̨ <SPACE> H o * *** * C k V t ē <SPACE> M v * * * O <space> H O P O Y e * * * * * * t <SPACE> n * * * * * * A K <SPACE> o m ******* * v * *** * L k *** * * * v * <SPACE> S t *** o W ē C ē <space> *** H o M P e t V <SPACE> V P V k * V <space> * e * M <SPACE> V   P a k * * *** * * V <SPACE> R a C A W e t <SPACE> M v <SPACE> T a * T <SPACE> M ē  C ē t <SPACE> O W E M V t s 
+HYP:  0 E t * T  ▁     M o W ▁ M A k E t ē ▁     S v C A Y T <space> R I T A K e T I T T P V t A       n I S 3 E T E T T ▁     o m <SPACE> R v T ▁ H A k ▁ H V T v M A       N t ▁ o * S  N T  <space> ▁ T o * * e t * ******* T 4 T k F T <space> K e T 4 T       ▁ H a k 1 T ▁ O H E T       T a N 3 K e t E       K v ▁     M a K A K       T ▁ O S  t ▁     S A K A K t s 
+Eval: S S   D S  S       S   I I   I S   S      S       S   I I I S         S S S S S   I I I I I I   S         I I I I I I S S S           I       I   I I   I S   I   I I I   I S       S   I     D S  S S          I   S   D D     D D       S S S   I S         I   I S S       S   S     I I I   I I S S       S   S S S     S       S   S       S   I S S       S S   S S    S       S S S S S     
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-3382cd10-1a60-4923-85c2-7473b91fd65a)
+Scores: (#C #S #D #I) 17 18 2 37
+REF:  * * * M v * * * * *** * * * <SPACE> t O t *** * * K v * <SPACE> t * * ē c * * * * * v * * * <SPACE> M V <SPACE> t * a t <SPACE> M   V T <SPACE> l *** o * * * *** p * * I C ē <space> * * t I   s * * K V 
+HYP:  K E T T v N 3 1 - ▁ H A K E       t * t ▁ H V T v M M       t U S ē c K E T E K v K E T T       3 K E       t 3 a t ******* ▁ F U L       l ▁ o M A T ▁ p E R R O M  <space> E T t ▁ s T O W T 
+Eval: I I I S   I I I I I   I I I S         D   I   I I S   I S         I I      I I I I I   I I I S       S S S         I     D       S   S S S         I     I I I I     I I S S S          I I   S     I I S S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-33f22715-f5e4-43c3-93b8-437f4e413896)
+Scores: (#C #S #D #I) 4 11 1 2
+REF:  * H V t v M <SPACE> M V L U   m * H V T ē s 
+HYP:  U E T t v * K       E T 5 ▁ m O N E M M  s 
+Eval: I S S     D S       S S S S     I S S S S    
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-3439aa9e-b1ff-4526-802a-8752fcef3a4e)
+Scores: (#C #S #D #I) 7 13 0 15
+REF:  * * *** P u * * *** * N v ** * K V <SPACE> M v ** <SPACE> P u * * *** N A Y i * t * <SPACE> O s 
+HYP:  A T ▁ F u L L ▁ E F v ē I T T ▁     Y v į ▁     F u L L ▁ E F V i S t K V       T s 
+Eval: I I I   S   I I I   I S   I  I S S S       S   I  S       S   I I I   S S S   I   I S       S   
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-3928823d-c113-4e7b-a638-ffc9b07982b7)
+Scores: (#C #S #D #I) 15 22 6 14
+REF:  O W e N <space> * M V <SPACE> c * * * U K O <SPACE> N a k e <SPACE> t e * * * * * * <space> H A   L o * <SPACE> s e L K V <SPACE> K I H   o C A  t <SPACE> M V n * * * 
+HYP:  I T e T <space> K O I T       c E T T E T T K       V a k e ******* t e T T 5 C N T <space> * ▁ M o M U       s e * * * ******* N O ▁ o W ē t V       H A n E T T 
+Eval: S S   S         I S S S         I I I S S S S       S       D           I I I I I I         D S   S   I S           D D D D       S S S     S S    S       S S   I I I 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-3b6129e5-6dfd-48e6-ad5a-95c48af2750b)
+Scores: (#C #S #D #I) 9 17 5 6
+REF:  M V <SPACE> e * F v * <SPACE> V C U L e t * <SPACE> v h O M V n *** <SPACE> L i K E t * ** <SPACE> O N K V 
+HYP:  * * O       e T T v P E       A K T 3 e t C 8       v h * * A n ▁ E       N i * S t H ē C       9 3 E S 
+Eval: D D S         I S   I S       S S S S     I S           D D S   I   S       S   D S   I I  S       S S S S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-3d39daa6-c304-4e91-950d-ca5e5d494aa6)
+Scores: (#C #S #D #I) 2 3 0 9
+REF:  * * * * * ******* * H a * * L E y 
+HYP:  E T T F T <SPACE> A T a K T H A y 
+Eval: I I I I I I       I S   I I S S   
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-45584371-de6d-42eb-a260-a7766d3dd2fe)
+Scores: (#C #S #D #I) 8 20 3 4
+REF:  V K e R R   I C V k *** * a t <SPACE> C   V T k O L e * * <SPACE> O N t <SPACE> O W ē <space> H   A K 
+HYP:  * * e T ▁ V L A k ▁ T a t T       ▁ O H k T 3 e N 3 ▁     E S t ******* E A K  <space> ▁ E R 
+Eval: D D   S S   S S S   I   I     S       S   S S   S S   I I S       S S   D       S S S          S   S S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-46885402-3f21-4121-a5fb-ae524ba09537)
+Scores: (#C #S #D #I) 33 44 6 44
+REF:  C   V R K  E t <SPACE> m v <SPACE> E n T V L K U s ******* *** * ē t * <space> *** * * *** o * ** N t * * <space> * * H V t A   ̨ <SPACE> C v R V   H v <SPACE> H   o * * * * * * *** * * * * k t *** * v L ē C u s *** * * * * ** <SPACE> M A H A t ** <SPACE> h *** * * ** * O K t E <SPACE> f V S K   e <SPACE> h O C e F   K v * t <space> O   W e * * * M v * T  s 
+HYP:  ▁ O W ē T t ▁     m v ******* * n 9 3 R R I s <SPACE> ▁ T A  t 5 <space> ▁ O M ▁ o W ē S t V N <space> 3 0 E T t ▁ H  O       M v * ▁ M v N       ▁ o W 6 I T L P ▁ T A T A k t ▁ M v T ē K u s ▁ H O K T ē ▁     E S E T t ē C       h ▁ V P ē Y C I t L P       f T 4 ▁ e ******* h * * e ▁ M v T t <space> ▁ C e B A K F v R ē s 
+Eval: S   S S S  S   S           D       D   S S S S S   I       I   I S    I         I   I I I     I I  S   I I         I I S S   S   S  S       S   D S   S   S       S     I I I I I I I   I I I I     I   I   S    S     I   I I I I I  S       S S S S   I  S         I   I I I  I S S   S S         S S S     D         D D   S   S   I           S   S   I I I S   I S    
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-47071cb8-3381-418e-8b08-c9bfb0e53864)
+Scores: (#C #S #D #I) 12 21 0 34
+REF:  * * * * v M <SPACE> v * * W O L I C A t * * * * <SPACE> c * *** * v * * R v *** H v * * * <SPACE> v * * *** * * * m * * * * * <SPACE> v *** W o * * * L   I ̨  C U S  A t 
+HYP:  E T T V v Y ē      v S T S E T T E N t K E U S ē      c 4 ▁ H v E T T v ▁ C v P U S E       v S T ▁ O W E m V T S E T T       v ▁ H o K T T ▁ A ▁ O W ē T t 
+Eval: I I I I   S S         I I S S S S S S   I I I I S         I I   I   I I S   I   S   I I I S         I I I   I I I   I I I I I S         I   S   I I I S   S S   S S S  S   
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-4954e10d-5be9-4da4-8a2a-9e0f469c4b54)
+Scores: (#C #S #D #I) 29 56 6 52
+REF:  * * * * * * M v * * <space> U e * * * ** w v <SPACE> A K  K V S V P P ē * *** * <SPACE> A K <SPACE> A   R a T <SPACE> O   M ē * C I C ē n * * <space> M V <SPACE> s U K   h V <SPACE> H A t * *** * k V <SPACE> E H V   C E <SPACE> E n K V   s A P P       ē t <space> *** * o m * * * * *** * * * * * * * ē S <SPACE> m * * * * * *** * a * * k e * t * * <SPACE> O N A H O Y   v * * * *** n * t S <SPACE> C ē 
+HYP:  K E T T I T T v L T <space> * e T T L ē w v ******* T ē T C E T T L ē T ▁ O W       T I T       ▁ N a K 3       ▁ K ē R R E K O  n F T <space> K E T       s 8 ▁ h A K       E T t 3 ▁ O k A K       A T ▁ A R ▁     O n * ▁ s * T <SPACE> F  t <space> ▁ M o m U S E N ▁ S U K H V V T ē T ▁     m V N I T T ▁ N a K S k e T t K V 3       I T E T T ▁ v C E I ▁ n U t * ******* E T  
+Eval: I I I I I I S   I I         D   I I I I      D       S S  S S S S S S    I I   I S       S S S       S   S   S S       S   S    I S S S S    I I         S S S         S S     S S       S S   I I   I   S S       S S S   S S S       S   D S     D S S       S            I   I     I I I I I   I I I I I I I    S S         I I I I I I   I   I I     I   I I S       S S S S S S     I I I I     I   D D       S S  
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-4e44e9da-93ec-4170-9b6a-ec30f95c722e)
+Scores: (#C #S #D #I) 6 11 2 12
+REF:  H O k * t * *** * E <SPACE> R   A K k o <SPACE> K I C I M v * * t *** * * * * * 
+HYP:  * E k O t P ▁ O W T       ▁ S E k o ******* W V T E K v E N t ▁ K E R R 3 
+Eval: D S   I   I I   I S S       S   S S     D       S S S S S   I I   I   I I I I I 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-51aa42da-8230-46fd-b386-7c784905d6ba)
+Scores: (#C #S #D #I) 24 30 4 30
+REF:  * *** * o * *** H w e N <SPACE> m v <SPACE> t O L O   S e <SPACE> M v n * * * ** <SPACE> n * * * a K e <SPACE> t e <SPACE> t * * O L O S <SPACE> H U t * ** *** * * *** * E <SPACE> m v N <SPACE> V t * ē H k * * * ē T <SPACE> O W e * m * * * v * T  s 
+HYP:  R ▁ M o N ▁ O w e * ******* m v ******* t * S ▁ C e T       T v n 5 T K ē E       n T V H a N e T       t e T       t K V A K E T D       F 5 t K ē ▁ V P ▁ O W ē      m v T S       E t A T  A k E N C U  L L       I C e M m 8 A T v R ē s 
+Eval: I I   I   I I   S     D D           D         D S S   S   S       S     I I I I  S         I I I   S   S           S         I I S S S S S       S S   I I  I   I I I   I S S           S S       S   I S  S   I I I S  S S       S S   I   I I I   I S    
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-5542c8dd-ba4d-40ec-bba9-a6fa1d9a25d0)
+Scores: (#C #S #D #I) 16 16 1 40
+REF:  V t O ̨ t *** * * K E t <SPACE> Y a * * ** * *** * * * F k * * E k v <SPACE> H o * * * * * * t *** * * * * O S e *** * p * * * * * * ē t *** <SPACE> o * * * w v * t *** * * E N 
+HYP:  I t * E  t ▁ M V N A t ▁     C a K K ē P ▁ M V N I k V I C k v ▁     M o M U S E N A t ▁ F U L L V P e ▁ V p E S W V T I S  t ▁ H       o N V N w v I t ▁ H O K T 
+Eval: S   D S    I   I I S S   S       S   I I I  I I   I I I S   I I S     S       S   I I I I I I   I   I I I I S S   I   I   I I I I I I S    I   S         I I I     I   I   I I S S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-55a5c65d-274e-42be-9ae8-aa14b515c987)
+Scores: (#C #S #D #I) 5 11 0 6
+REF:  M O   M u S E N <SPACE> N A F K v t ē * * * * * * s 
+HYP:  R ▁ C u K O T D       H E T T v t ē S W V E M M s 
+Eval: S S   S   S S S S       S S S S        I I I I I I   
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-5c765c21-492a-448d-a229-757d1dc29b22)
+Scores: (#C #S #D #I) 6 15 0 19
+REF:  * * *** * * * *** * ** * * * Y V <SPACE> L a * *** ̨ H n U S E   T <SPACE> H a * *** k * * ē T <SPACE> o * s 
+HYP:  B T ▁ O W T ▁ E ē T T E N T 1       T a T ▁ P  E n W V ▁ O N       C a K ▁ k E R R  V K       o T s 
+Eval: I I I   I I I I   I I  I I I S S S       S   I I   S  S   S S S   S S       S   I I     I I S  S S         I   
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-60dd7427-f016-4e1e-9709-bd082c497490)
+Scores: (#C #S #D #I) 5 14 0 16
+REF:  M O       N t * * <SPACE> O M a t *** * * * * * *** * <SPACE> L I k * * * * * * V T   ē T I s 
+HYP:  R <SPACE> I t K E T       T 3 a t ▁ P E N W V ▁ O N       C A k H U E R E M M ▁ M  O M s 
+Eval: S S       S   I I S       S S     I   I I I I I I   I S       S S   I I I I I I S S   S  S S   
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-63b13dc0-9866-420e-af4c-37192d59c259)
+Scores: (#C #S #D #I) 0 0 0 3
+REF:  * * * 
+HYP:  E T T 
+Eval: I I I 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-66f20da2-e000-42ae-88a0-c884dd8803c8)
+Scores: (#C #S #D #I) 19 39 1 37
+REF:  * * * * ** * * * * M V <space> * K A P V   <SPACE> T a t * <SPACE> ē ̜ <space> * * * *** f * * * E   K ē P P I C A N <SPACE> e * R h ** * * U Y I   R I t * * <SPACE> v * * y * ē P v * * * * Y V N t * v * S <SPACE> M A   k ** * * *** e s A S v T ē s 
+HYP:  K E T T ē T 4 1 T F T <space> 5 - 8 9 ▁ O       M a t U S       ē T  <space> A T C ▁ f U L L ▁ M O  N K V T V S 3       e T T h ē C T A T ▁ E S t A K W       v N A y V M  2 v L K E S K E T t K v - 4 E       T ▁ k ē R R ▁ e s * T v M I  s 
+Eval: I I I I I  I I I I S S         I S S S S   S       S     I S          S          I I I I     I I I S   S S  S S S S S S S         I S   I  I I S S S   S S   I I S         I I   I S  S   I I I I S S S   I   I S S       S S     I  I I I       D S   S S    
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-673521f1-eb22-43cb-91c5-8261b84e7601)
+Scores: (#C #S #D #I) 35 50 4 70
+REF:  * * * * *** * o * * h * * * * ** * *** * * * * W   e N <space> P O M   e * * * * * * n <SPACE> M v N <SPACE> h o * p U e t * A k * E <SPACE> S U L K ē t <SPACE> O W ē * P   e * * * k * v <SPACE> H O K T v L ē  C a * k A T   E n * <SPACE> M V t * <SPACE> S V M <SPACE> V C U L I C V K ē ** * t <SPACE> o w ē * * * p * *** * * ē * *** * * * *** * * *** * * *** * m * * * * * v * ** t *** * o * K <SPACE> M v * * N 
+HYP:  4 - 4 9 ▁ M o W T h A Y V K ē T ▁ N A K 3 ▁ e S <space> I T ▁ e S T A K W V n A       Y v M ▁     h o M p * e t V T k V 3 2       9 T 9 3 I  t ******* V Y ē T ▁ e S T A k W v ******* * N A Y v M ▁ R a K k O ▁ O n E T       T I t C 8       L - A K       T S E T T 3 D H ē ̨ T t ▁     o w ē T T V p E ▁ O W ē T ▁ M O N ▁ O S ▁ A T ▁ E m 5 - 8 T 3 v Y ē t ▁ H o N V N       W v 7 O K 
+Eval: I I I I I   I   I I   I I I I I  I I   I I I I S     S         S S S     I I I I I I   S       S   S S           I   D     I S   I S S       S S S S S    D       S S    I S     I I I   I   D       D S S S   S S   S   I   S S   S   I S       S S   I S       S S S S       S S S S S S S S    I  I   S              I I I   I I   I I    I I   I I I I   I I I   I I I   I   I I I I I   I I    I   I   I S S       S   I I S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-69696588-6bc6-43df-a1b5-dc1f70b42135)
+Scores: (#C #S #D #I) 16 24 5 27
+REF:  M O M E   T <SPACE> S e * K   o * H L I K   V o <SPACE> E s C e M <SPACE> P V L E Y       V R ē *** s * <space> * * *** C v * *** * * * k * I C a k * * *** * * * v * ** ** * N t ** v * * * s 
+HYP:  * R T ▁ Y V       3 e N ▁ o M V S T ▁ M o M       U s * e * ******* * N N T <SPACE> F K ē ▁ s T <space> A H ▁ M v N ▁ M O N k V A T a k T S ▁ H O M v T ē ą E T t ē v L K E s 
+Eval: D S S S   S S       S   I S     I S S S S   S   S       S   D   D D       D S S S S       S S    I     I         I I I   S   I I   I I I   I S S     I I I   I I I   I I  I  I S   I    I I I   
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-6b3d80a4-0509-4481-97e6-9ab6b7205e56)
+Scores: (#C #S #D #I) 5 15 0 9
+REF:  * * * * L u C V  <SPACE> H O p O K V  N <space> * * A Y   V N t * * A t * 
+HYP:  A T 5 I T u S ē 8       C 8 p V T ē T <space> E T T ▁ E M t D H 1 t 3 
+Eval: I I I I S   S S  S       S S   S S S  S         I I S S   S S   I I S   I 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-6c0095b9-8f6b-4fb5-8b03-2c7842183f9a)
+Scores: (#C #S #D #I) 6 18 0 8
+REF:  S O H C   A N ē  <SPACE> C V Y A C   e t <SPACE> o * * * * W ē  s <SPACE> M v t ** * * * 
+HYP:  3 2 9 ▁ O M ▁ W       A K K T ▁ e t ▁     o H I E T T ▁ s A       K v t ē S O K 
+Eval: S S S S   S S S   S       S S S S S       S         I I I I S S     S       S     I  I I I 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-6ff7659d-af1e-4d02-9540-0d85722f16bc)
+Scores: (#C #S #D #I) 22 33 2 26
+REF:  Y   V m * v * * * * * * * * * <SPACE> t a t <SPACE> R A V  k E R R I C V K ē <space> * t A Y ē <space> *** o N k O t * * <SPACE> m v * * t <space> * t V       L W V <SPACE> H ē ̜  r * * * * * ē t <SPACE> o * *** C ē t * * <SPACE> O s 
+HYP:  ▁ E m T v H A N 1 T 1 T 9 C ▁     t a t T       U S ē k V M - E T T F T  <space> I t * * T  <space> ▁ o M k E t 3 1 ▁     m v N K t <space> F t <SPACE> A T C M       A K  ▁ r A K K O K V  t ▁     o S ▁ E S  t V M I       8 s 
+Eval: S   S   I   I I I I I I I I I S             S       S S S    S S S S S S S S          I   D D S          I     S   S   I I S           I I           I   S       S S S S       S S  S     I I I I I S    S         I I   S S    I I S       S   
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-7042fa3b-2f90-4a24-97ab-93859da9497f)
+Scores: (#C #S #D #I) 8 12 1 18
+REF:  R a * c *** * * * * ** * v * H  V t *** * * * * v * P E c I   H C E t *** <SPACE> o * * K A T 
+HYP:  * a T c ▁ O N U S ē U v T ē T t ▁ O W E M v T S 2 c ▁ O S I t ▁ M       o M U S E N 
+Eval: D   I   I   I I I I I  I   I S  S   I   I I I I   I S S   S   S S S   I   S         I I S S S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-7584b3f9-06dc-460e-ad1e-c8ae2a946acd)
+Scores: (#C #S #D #I) 3 12 2 0
+REF:  M V t O <SPACE> C   e K I C V Y   ē T <SPACE> o S 
+HYP:  * 1 t E S       ▁ e * R A T ▁ N  O R       o W 
+Eval: D S   S S       S     D S S S S   S  S S         S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-7804ed30-5652-4a25-85a6-180845d981be)
+Scores: (#C #S #D #I) 23 31 11 23
+REF:  M O M E N <SPACE> M v <SPACE> C U K O <SPACE> e R O R a t <SPACE> v Y e K O <SPACE> m O n K e * t <SPACE> O k * * A t <SPACE> V s * * ** * i * * <space> H v * * *** * * * C C e n * <SPACE> P e R R o * * * * * ** t * <SPACE> A K W A k K ē s 
+HYP:  * R I T T ▁     Y v ******* * * D H ▁     e * * S a t ******* v P e * T ▁     m V n * e T t V       L k E C 1 t ******* I s T H ē C i T R <space> W v I T ▁ M O M U S e n E N       T e * K o N D H V T ē t 5 E       T T E T k V T  s 
+Eval: D S S S S S       S   D       D D S S S         D D S     D         S   D S S         S   D   I   S       S   I I S   D       S   I I I  I   I I         S   I I I   I I I S S     I S       S   D S   I I I I I I    I S       S S S S   S S    
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-7b1086b3-f0c5-4ce2-a7a4-453117a514fd)
+Scores: (#C #S #D #I) 0 0 0 3
+REF:  * * * 
+HYP:  A T 6 
+Eval: I I I 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-7ec72ee1-3d2e-4494-92ad-9787c3986363)
+Scores: (#C #S #D #I) 10 42 0 14
+REF:  N   E R ē <SPACE> F U L L V   T <SPACE> Y V M   A H K U   e C ē  P V C o k * * *** * * * * v * * N K  S <space> * * * M A k e t <SPACE> C   e * * M <SPACE> O N A H O Y V R ē s 
+HYP:  ▁ H V T  ą      A T A K ▁ C E       M 8 ▁ O W I ▁ e S ▁ S E K o k E T ▁ O S T 4 v P E T ē T <space> E T T 9 3 k e t V       ▁ e F V T ▁     V C E I A T A K T  s 
+Eval: S   S S S  S       S S S S S   S S       S S S   S S S S     S S   S S S     I I I   I I I I   I I S S  S         I I I S S       S       S     I I S S       S S S S S S S S S    
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-7ef5be7e-e03b-4079-832a-c35dbb1cb219)
+Scores: (#C #S #D #I) 36 61 11 41
+REF:  * E N k E <space> M A k A k * <SPACE> H   a <SPACE> S e * T   o H L A   T K A T <SPACE> E N K E <SPACE> s e t O H L   A T K V  T <space> * O N  <SPACE> h * V t v M <SPACE> M   v N <SPACE> N e * w * * * <SPACE> Y o R k * * <SPACE> C  I t Y <SPACE> m v n * *** * * * <SPACE> s * * v C a Y E   M v t ** *** * * * S <space> * * Y E a * * * H <SPACE> m V n *** * *** <SPACE> H v * ** * * ̨ L W e * *** <SPACE> H a * * * ** <SPACE> Y   e <SPACE> N 
+HYP:  V C O k * <space> * * k V k E T       ▁ a ******* Y e N ▁ o * N ▁ V P E S W       V 8 V T ē      s e t * * ▁ M V N ē F <space> 9 K ē ▁     h O K t v L ē      ▁ v * ******* P e S w V 5 T ▁     H o * k T V L       ē E t * ▁     m v n 7 ▁ E C C A       s A T v H a N ▁ H v t ą ▁ A R I T <space> N L O S a K T S R ▁     m O n ▁ S ▁ A       F v R ē S A T  6 R e C ▁ O       N a K V T ē S       ▁ e M       T 
+Eval: I S S   D         D D   S   I S       S     D       S   I S     D S S   S S S S S       S S S S S             D D S   S S S S  S         I S S  S         I S     S S       S     D D       S   I   I I I S       S   D   I I S       S  S   D S             I I   I I I S         I I   S   S S   S     I  I   I I I S         I I S S   I I I S S         S   I   I I   S       S   I I  I I S  S S   I I   S       S   I I I I  S       S     S       S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-7f510c32-1988-4db4-bcf5-16028840d196)
+Scores: (#C #S #D #I) 13 24 2 20
+REF:  * * ******* * * *** M O n * * t * * <SPACE> e * H m *** e * N <space> S   V  y ē P A n * <SPACE> V t * * * ē ̜ K   U s * E N <SPACE> v P E y * *** ē P V T ē s 
+HYP:  R T <SPACE> A T ▁ V E n T F t 4 A T       e T E m ▁ e L E <space> ▁ ą y ** * E n T E       T t I S M A  T  ▁ E s T A K W       v N A y V ▁ O  N E M M  s 
+Eval: I I I       I I I   S S   I I   I I S         I S   I     I S         S   S    D  D S   I S       S   I I I S  S  S   S   I S S S         S S   I I   S  S S S S    
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-7fec84a6-5fc9-4d29-a829-a7a6fd1a0143)
+Scores: (#C #S #D #I) 23 32 0 49
+REF:  1 9 4 0 <SPACE> O N K A   t * <SPACE> 1 9 3   0 <SPACE> m A h * e * * * <space> ** * * * * * * M V <space> * * * * * * O R ē N <space> *** e s * *** * * * * t e * m *** e R K e * * T v t ** * * *** <SPACE> O W e M v * * t *** * S <SPACE> M a * k e * t * * * * * * * * * * 
+HYP:  D H E T T       3 D H ▁ t O L       O S ▁ C E       m I h C e T I T <space> ē D H E T T 3 F T <space> E N 3 1 - I H C E  T <space> ▁ e s 2 ▁ M O N I t e N m ▁ e F V e S A S v t ē S P ▁ V       9 2 e K v I T t ▁ Y V V       R a N k e T t E N C U L L I C 2 - 
+Eval: S S S S S       S S S S     I S       S S S   S S         S   I   I I I         I  I I I I I I S S         I I I I I I S S S  S         I       I I   I I I I     I   I     S S   I I S     I  I I I   S       S S   S   I I   I   I S S       S   I     I   I I I I I I I I I I 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-80a7876f-bef9-40af-ab08-cd960919af3b)
+Scores: (#C #S #D #I) 8 20 3 11
+REF:  ** * M O N t * * <space> n A K   e <SPACE> O N v ** K V <SPACE> o * * *** C ē <SPACE> H ē ̜ R E t *** * * <SPACE> O M ē S 
+HYP:  ē T T E T t K V <space> n T ▁ e ******* * F v ē I T ▁     o S F ▁ A Y  E       N M  V  S I t ▁ W I T       V T ē * 
+Eval: I  I S S S   I I           S S     D       D S   I  S S S         I I I   S S  S       S S  S  S S   I   I I S       S S    D 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-81b8fcb4-bc9a-4fe1-b494-bad539c2e34c)
+Scores: (#C #S #D #I) 7 10 3 10
+REF:  * * * L u * ** c V <SPACE> H O p O K v N <SPACE> A Y       V N t *** a * * * * t 
+HYP:  I T 5 T u S ē c * I       T T p * * v T ē      T <SPACE> E T t ▁ a R D H 1 t 
+Eval: I I I S   I I    D S       S S   D D   S S       S S       S S   I     I I I I   
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-828ecdd0-ecc7-4047-b7ff-db1c111d213f)
+Scores: (#C #S #D #I) 20 22 6 28
+REF:  T E   W a R W I C   ē t <SPACE> o * W E N <SPACE> o W E N <SPACE> M a M v * t <space> * * * * M V t * <SPACE> S A K   m o * *** * * R ē c * t *** * * * * <SPACE> o w e m v t * * * * * * * * * * ** s 
+HYP:  * ▁ P a * * L ▁ S  t ******* o M I S T ▁     o * * S 3       H a K v E t <space> 1 - 3 2 E T t V ē      C H ▁ m o N ▁ W A K K  c V t ▁ M V N F ▁     o w e m v t S O H L I C D H V R ē s 
+Eval: D S   S   D D S S   S    D         I S S S S         D D S S       S   S   I           I I I I S S   I S       S S S       I I   I I S S    I   I   I I I I S                   I I I I I I I I I I I    
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-82921a48-06b6-4ac3-a405-7c6457026548)
+Scores: (#C #S #D #I) 11 38 2 13
+REF:  S   A K  L I K E t <SPACE> O K ē P A N <SPACE> O h K i N <SPACE> H v * L       A t *** * * t * *** * * * ** E H C e t <SPACE> v W I H k * * E t *** <SPACE> L E T K E   H P E N 
+HYP:  ▁ M ē C B V S t M       9 3 I  T F T 4       D h * i T C       W v T <SPACE> E t ▁ O W t 3 ▁ L I K ą I S 3 e t T       v * F C k V 3 A t ▁ V       C U L 9 ▁ O M A T 
+Eval: S   S S  S S S S   S       S S S  S S S S       S   D   S S       S   I S       S   I   I I   I I   I I I I  S S S     S         D S S   I I S   I   S       S S S S S   S S S S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-8370cbf1-4089-44eb-8ed4-84de479578e2)
+Scores: (#C #S #D #I) 23 47 11 22
+REF:  N A k e <SPACE> t E <SPACE> U E <SPACE> v C V n K V <SPACE> o * * * W ē <SPACE> U E <SPACE> S a * k L O P   K v * * <space> O W ē T <SPACE> O W E M v * T  s <SPACE> K   o * W   v * Y ē <SPACE> m * * * * * * V N <SPACE> L e C V N <space> E N L   I H c *** E t <space> * * * M v * ** * <SPACE> F   E K c E 
+HYP:  * * k e ******* t * ******* * T K       v 9 A n * T ▁     o H I D H B  A       N T ▁     W a K k 5 C ▁ M v T T <space> V Y ē * ******* N A N F v R ē s ******* ▁ o M ▁ v N I C  T       m K E T A K T S U D       H e T F T <space> I S ▁ O W c ▁ S t <space> V R A N v T ē T L       ▁ O S c * 
+Eval: D D     D         D D       D S S         S S   D S S         I I I S S  S       S S S       S   I   S S S   S   I I         S S    D D       S S S S   I S    D       S     I S     I S S  S         I I I I I I S S S       S   S S S         S S S   S S   I   S           I I I S   I I  I S       S   S S   D 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-8859e965-ac66-4a5c-a357-e72717e4fcc7)
+Scores: (#C #S #D #I) 16 29 4 22
+REF:  M o N k * * A  t * * * *** * * <SPACE> N O ̨ C   U S A t <space> *** K o w *** * * e * *** * t <space> S t *** U C E <SPACE> E S   ē <SPACE> S a R V K e N <SPACE> O W e N <SPACE> O W a * * * * * * t 
+HYP:  * o * k E S ē t V P E ▁ W A K       K T 3  ▁ M V T t <space> ▁ M o w ▁ O M e N ▁ S t <space> F t ▁ W A K K       T ▁ M  V       N a * H Y e * T       D H e T I       T H a K V E T 3 E t 
+Eval: D   D   I I S    I I I I   I I S       S S S  S   S S S           I   S     I   I I   I I   I           S   I   S S S S       S S   S  S       S   D S S   D S       S S   S S       S S   I I I I I I   
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-8868bd25-98fa-4b00-a28f-a2e673b19d55)
+Scores: (#C #S #D #I) 14 11 3 24
+REF:  M O M a * * * * * ** * N <space> * * *** m o * *** m v R A n e N <SPACE> O   M ē * S <SPACE> K i * * * ** * * C v t * * ē * * * s 
+HYP:  * R T a K E T V K ē T T <space> R T ▁ m o N ▁ m v * * n e T T       ▁ E ē T T ▁     W i T V T ē A T W v t U S ē A K T s 
+Eval: D S S   I I I I I I  I S         I I I       I I       D D     S S       S   S    I S S       S   I I I I  I I S     I I    I I I   
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-8d243f58-f4b5-4105-ad7f-17bc5bd4b899)
+Scores: (#C #S #D #I) 13 35 1 23
+REF:  M O M   E T <SPACE> p * U   S U L K ē T <SPACE> O W ē k v * * * * <SPACE> E U F a U L a * <SPACE> F V   c * * C   V n *** * * * * *** * * <SPACE> m * * * v * ** N <space> * V p * O k ē t <SPACE> O N 
+HYP:  * R ▁ Y V 3       p V ▁ O H W E N  A N       L 9 T  k v T A N T ▁     H A K a T C a K A       T ▁ c E M ▁ O n ▁ O W E T ▁ O W E       m V T S v K ē T <space> E T p V T k V  t K       V T 
+Eval: D S S   S S S         I S   S S S S S  S S       S S S      I I I I S       S S S   S S   I S       S S     I I S   S   I   I I I I I   I I S         I I I   I I  S         I S   I S   S    S       S S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-8fdb1e0b-a722-400b-986d-8cbe3b79394e)
+Scores: (#C #S #D #I) 8 9 8 13
+REF:  V C e <SPACE> K I C ē <SPACE> O H   o C A t <SPACE> v * C e * <SPACE> H V t * k * * e * * * *** * * * * 
+HYP:  * * e ******* * * * ** T       T ▁ o * S t W       v T S e T T       3 E t E k O N e T T 3 ▁ V L A K 
+Eval: D D   D       D D D D  S       S S     D S   S         I S   I S       S S   I   I I   I I I I   I I I I 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-90518db9-df92-4ab3-b68d-97fb4efb38d3)
+Scores: (#C #S #D #I) 7 34 1 11
+REF:  M   V <SPACE> H O K t * ē <SPACE> S   A R V   Y A N <space> S V C V P   E N K v * * L <space> *** * * ē C E T   V n * * <SPACE> E Y A h * * c *** E N 
+HYP:  ▁ E S       8 L P t - 4  T       ▁ O W ▁ E M T <space> * E N T ▁ H O M v T I S <space> ▁ R A K  K O ▁ O n A K T       P U D h F E c ▁ O S 
+Eval: S   S S       S S S   I S  S       S   S S S   S S S         D S S S S   S S S   I I S         I   I I S  S S S   S   I I S       S S S   I I   I   S S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-90fe7594-e51c-4201-b3b3-f8b2a9f8d51e)
+Scores: (#C #S #D #I) 10 15 1 31
+REF:  E L ē C I   T <SPACE> O m * I s * <SPACE> k * i * * *** * * * C e n * * * * * * * *** * <SPACE> a O S S V t * *** * ē * * * * * * *** * * * s 
+HYP:  A T A  K ▁ O W       E m V T s 2 E       k V i T T ▁ Y V A T e n C U L L I C 2 ▁ Y E       a * H E T t 8 ▁ K ē R R A T E M ▁ E L E s 
+Eval: S S S  S S   S S       S   I S   I S         I   I I I   I I I S     I I I I I I I I   I S         D S S S   I I   I    I I I I I I I   I I I   
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-915838eb-9f41-4840-b320-306a99e96083)
+Scores: (#C #S #D #I) 28 45 3 45
+REF:  *** m ē K u s * * *** * * ** * *** * * * V P  k * * V <SPACE> c U K   o * * <space> H v M k ** *** U S ē N <SPACE> m V n * <space> C   E t ******* *** ** * A K <SPACE> v * * * * C   o L V t * ē t <space> * * * * * * * * *** * O W V <space> *** ** * * M <SPACE> H M <SPACE> e * *** m o n K       O   S <SPACE> A ̨ R v Y ē <SPACE> M O N k v t * <SPACE> O S 
+HYP:  ▁ m O  M u s E N ▁ O W ē T ▁ W A K K ē k A T I T       c * ▁ o N T <space> * v * k ē ▁ O W ē S ▁     m O n T <space> ▁ S t <SPACE> ▁ ē H U E R       v P E I T ▁ o W P t P E  t <space> A T A K A K E T ▁ F U L L <space> ▁ ą Y S E T       T E C       e N ▁ m o n <SPACE> ▁ M ē      K U  S v P K  V       3 1 - k v t 4 -       4 9 
+Eval: I     S  S     I I I   I I I  I I   I I I S S    I I S S         D S     I I         D   D   I  I   S S    S S         S   I         S   S   I       I   I  I S S S         I I I I S     S S   I S            I I I I I I I I I   I S S S         I   I  I I S S       S S S         I I         S       S   S S       S S  S   S S  S       S S S       I S       S S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-92fb04ff-c0bd-444c-a70b-9cfb58a1412c)
+Scores: (#C #S #D #I) 15 40 1 20
+REF:  * N A k * * *** * * e * t *** <SPACE> m * V   <SPACE> H V Y A Y A K ē <SPACE> V t ē  K A n <SPACE> A R E T <SPACE> O M A   C O k e T <SPACE> O M i * S <SPACE> A v t * e * * *** K o * ** * * * * t <SPACE> O   M E N 
+HYP:  E T T k V 3 ▁ E S e T t ▁ E       m T ▁ E       M T L I S P T ē E       T t ▁ M V n ▁     M O M 3 I       T T ▁ Y V k e * K       V 3 i T T ▁     Y v t S e T T ▁ M o W ē T I T I t T       ▁ Y V D 
+Eval: I S S   I I I   I I   I   I   S         I S   S       S S S S S S S    S       S   S   S S   S       S S S S S       S S S   S S     D S       S S   I S S       S     I   I I I   S   I I  I I I I   S       S   S S S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-951b8ec3-c5d5-46c7-84a7-24b2c13d2a6b)
+Scores: (#C #S #D #I) 17 17 6 22
+REF:  *** * * *** E n * *** * * * ** ** * * *** h v t * E c ** * E S K V <SPACE> N   U T e *** * <SPACE> n U t E <space> *** h o m v <SPACE> E N C   v * O k * ē t <SPACE> O W ē s 
+HYP:  ▁ A R ▁ O n T ▁ O S S ē ē T T ▁ h v t V M c ē T T A T C M       ▁ V C e ▁ M O       n F t * <space> ▁ h o m v ******* T K ▁ v L A k R M  t ******* * * ** s 
+Eval: I   I I I   S   I I   I I I I  I  I I I         I S   I  I S S S S S       S   S S   I   I S         S   D         I           D       S S S     I S   I S    D       D D D    
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-98136354-c0fc-43f4-95b9-eb60ad80d6ff)
+Scores: (#C #S #D #I) 17 49 3 17
+REF:  V R ē P E t * <SPACE> O M E t <SPACE> S v * *** R ē P E T <SPACE> M O M U s * * E N   <SPACE> E M o * * N T       A   h L E t * * <SPACE> m v <SPACE> n A K   e * * <SPACE> t * * A t <SPACE> M O   M u S E N <space> *** C A S E t <SPACE> O M E t *** * * 
+HYP:  E T A  K T t I S       3 I T t ▁     Y v 3 ▁ S U  K H V A       K T T I s 3 R V ▁ C       U K o D H R <SPACE> ▁ h V A t V S ▁     m v ******* n * ▁ e S T O       t K V 1 t R       V ▁ C u * K O <space> ▁ H O M V t -       8 I T t ▁ Y V 
+Eval: S S S  S S   I S       S S S   S       S   I I   S S  S S S S       S S S S   I I S S   S       S S   I I S S       S     S S   I I S           D         D S     I I S         I I S   S       S S   S   D S S         I   S S S S   S       S S S   I   I I 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-99add4ab-987d-4eb1-bbb9-02df355e607c)
+Scores: (#C #S #D #I) 10 22 2 17
+REF:  * * * * * * * * *** H v *** * * * * t * a ̨ <SPACE> H O M E <SPACE> m A H E  k O T <space> O   s * <space> K O N c C   E n * <SPACE> O   W A T 
+HYP:  E T T 1 T I T T ▁ Y v ▁ K E R R t C a ** K       I T A T ▁     m V T ē k U S <space> ▁ s T <space> * I T c ▁ O n - T       ▁ M V N 
+Eval: I I I I I I I I I   S   I   I I I I   I   D  S       S S S S S         S S S    S S         S     I         D S S   S   S   I S       S   S S S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-9eac646e-4f65-42ca-8429-6678a00d87cf)
+Scores: (#C #S #D #I) 12 32 4 17
+REF:  * * ******* * * h *** * * * * * *** ē ̨ R e N <SPACE> v * *** * r ē C C V t <SPACE> t I S <SPACE> v N t A T   <SPACE> v R   V Y ē <SPACE> S e * K   <SPACE> N e * w <SPACE> Y O R  K <SPACE> C I T Y 
+HYP:  F T <SPACE> U D h ▁ E F V P T ▁ M  A  K e T K       v 3 ▁ E r ** O R E t ******* t H A K       v 1 t * ▁ H       v ▁ O S A  F       K e I ▁ V       P e S w ******* V L ē T T       N L O S 
+Eval: I I I       I I   I   I I I I I I   S  S  S   S S         I I   I   D  S S S   D         S S S         S   D S   S         S   S S S  S       S   I S   S       S   I   D       S S S  S S       S S S S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-a0f3b40c-ef15-4287-92f5-9ef38a125ac3)
+Scores: (#C #S #D #I) 9 22 0 16
+REF:  * * * H v * * t v * *** * * * M <space> M   o * * M U S E N   <SPACE> C a * K   K ē P a * ******* * C O k e N <SPACE> O M  A N 
+HYP:  E T E K v E T t v R ▁ C U K O <space> ▁ o H C K V F T ▁ O       M a T ▁ O S  T a T <SPACE> I T A k e T V       K ē T T 
+Eval: I I I S   I I     I I   I I I S         S     I I S S S S S   S       S   I S   S S  S   I I       I S S     S S       S S  S S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-a1874313-d5d0-488d-b573-82b49acc98a0)
+Scores: (#C #S #D #I) 28 31 11 31
+REF:  M V t * * * <SPACE> e * *** m <SPACE> v * *** n I C e N <space> H V t A ̨ <SPACE> C v R V H V <SPACE> h o K T ē  <SPACE> H O K t V L ē c *** * A t * <SPACE> m V o <SPACE> m V <SPACE> t * e * * *** * p ** * * A k e t <SPACE> M V   n I C a k * * * * * * * * ** t * * * * <SPACE> O s 
+HYP:  K E t 3 E H C       e T ▁ m ******* v T ▁ n U T e T <space> * E t * ** E       K v T E T T ▁     h o M V ▁ O       W C I t * C 8  c ▁ M I t C ▁     m * o ******* m A K       t S e T R ▁ V p ē Y 0 9 k e t ******* * ▁ n * * a k E T - 4 E T U S ē t V Y V N T       V s 
+Eval: S S   I I I S         I I     D         I I     S S   S         D S   D D  S       S   S S S S S           S S S   S       S S S   D S S    I   I S   I S         D   D         S S         I   I I I   I   I  I I S       D       D S     D D     I I I I I I I I I    I I I I S       S   
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-a7593d99-a460-4771-8ece-84117788d5d9)
+Scores: (#C #S #D #I) 34 66 4 46
+REF:  o W E N <SPACE> S W  E L A   K E t <space> * * * M v n <space> * * * p * * *** o Y A H K e * t <SPACE> V P E s * ** * * *** * * W v * <SPACE> t *** * E W A   R W I C E N <SPACE> m ē C a * t <SPACE> M V <SPACE> V P e * * * s * ** <SPACE> h * U t e * * *** <SPACE> ē k * * *** * K U   C E <space> * C U K   o <SPACE> K I C ē <SPACE> O w * ē <SPACE> M V n * * * * <SPACE> R V t * * ē h * ē t <SPACE> O W e * m * v * T  s 
+HYP:  o * K R M       K ē A N ▁ O W t <space> 9 3 O F v n <space> E T T p V T ▁ o * W 9 3 e T t E       T T I s K ē K 3 ▁ H V T v M K       t ▁ M V N ▁ Y V T O S 3 ▁     m A  K a K t ******* - 4 E       T T e T T I s K ē ▁     h O K t e T F ▁ M       A  k E T ▁ R A ▁ S T <space> 3 2 9 ▁ o M       T V T ē ******* S w V T  S       N A n E H C E T       E T t S - I  h C E  t ▁     A Y e N m P v R ē s 
+Eval:   D S S S       S S  S S S   S S           I I I S             I I I   I I I     D S S S   I   S       S S S   I I  I I I   I I S   I S         I   I S S S   S S S S S S S         S  S   I   D       S S S       S S   I I I   I I  S         I S     I I I   S       S    I I I   I S S   S S         I S S S     S       S S S    D       S   I S  S       S S   I I I I S       S S   I I S    I S    S       S S   I   I   I S    
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-a9e15bcd-dcb6-4b95-98c1-f916ad59147d)
+Scores: (#C #S #D #I) 34 56 5 61
+REF:  *** * o * * h * * *** W E N <SPACE> c * V R K   e * * t * * * *** * * * <SPACE> m v n ** * <space> C U   K o * * <SPACE> P v * *** * * l * K V <SPACE> o * * W       e * N   <SPACE> P U N   P V L H   O Y ē <space> * *** * * * *** * v P o k e Y a t <SPACE> H E R  E k O t * * <SPACE> O S <SPACE> P ē * * t A  K e <SPACE> S U L k * ē <SPACE> P U   N h * * * a * * k * *** * * * * * * * t * * <SPACE> O S <SPACE> M A k e * * N <space> * * 6 
+HYP:  ▁ M o W T h A Y ▁ H O M V       c 3 9 3 ▁ e S A t V P E ▁ O M 4 ▁     m v n ē T <space> * ▁ M o W T ▁     M v N ▁ T O l O S 4 ▁     o F T <SPACE> e T ▁ C       E M ▁ S A K ▁ A R I  <space> 9 ▁ A A T ▁ H v * o k e * a t ******* U S ē T k V t 3 1 -       A Y V       T ē S V t ē T e ******* K V T k V 3  2       9 ▁ O h W E N a N T k V ▁ E R Y I C E T t L V Y       V N T       V S k e T K V <space> E T T 
+Eval: I   I   I I   I I I   S S S S         I S S S     I I   I I I I   I I I S             I  I         D S   S   I I S       S   I I   I I   I S S S         I I S         I S   S       S S S   S S S S   S S S          I I   I I I I   I   D       D     D       S S S  S   S   I I S       S S S       S    I I   S  S   D       S S S   I S  S       S S   S   I I I   I I   I I   I I I I I I I   I I S       S S S       S S     I I S         I I S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-aa0697ff-90d0-4adc-8b75-803249164120)
+Scores: (#C #S #D #I) 6 15 3 4
+REF:  M O W e * T <SPACE> A r I T <SPACE> A   C v H O K t * A L   e * * t <SPACE> O 
+HYP:  R A N e K V P       V r * * ******* ▁ M v T E T t O S ▁ e R 1 t 5       C 
+Eval: S S S   I S S       S   D D D       S   S   S S S   I S S     I I   S       S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-aa550948-bb50-41f3-8c02-5751a52ea384)
+Scores: (#C #S #D #I) 16 21 4 13
+REF:  P U M <SPACE> v W O L I C V t <SPACE> V t O t K e * t * * v * <SPACE> s *** * T e * *** m <SPACE> v t * O t k ē t <SPACE> O n *** * * * T <SPACE> O N 
+HYP:  * Y R 8       v S T A N U E t ******* * t E t T e T t A K v T ē      s ▁ O W e N ▁ m ******* v t E N t k E  t 5       A n ▁ K I H C ē      T T 
+Eval: D S S S         S S S S S S   D       D   S   S   I   I I   I S         I   I S   I I     D           I S     S    S       S   I   I I I S S       S S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-ac186d90-5ef9-465f-b653-61785165c342)
+Scores: (#C #S #D #I) 16 26 2 35
+REF:  * * * * H V t v M <SPACE> A t v * *** P o C K A t *** * * * H v * * ** * * * * * * t v * * * *** m * <SPACE> V   m <SPACE> v * *** * * * * R A   h * * * * * H E t <SPACE> R E S v C V   W I H k E T 
+HYP:  E T T 3 E T t v * E       T t v S ▁ T o L O S t ▁ O W E M v T S ē T E T T E T t v E T T ▁ m O N       ▁ m ******* v N ▁ O W I S 3 ▁ h V T V M T - 4 t ▁     H O M v T ▁ A Y C k V 3 
+Eval: I I I I S S     D S       S     I I   S   S S S   I   I I I S   I I I  I I I I I I     I I I I     I S       S     D         I I   I I I I S S     I I I I I S S   S       S S S   S S   S S S   S S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-ac961882-a091-4144-8301-b5a36daf3c25)
+Scores: (#C #S #D #I) 23 53 13 12
+REF:  H I Y O W ē t * <SPACE> N o * K   W v * <space> e * N   H V L A H T  e * t *** <SPACE> H V M M ē C E t <SPACE> T O L O  s e <SPACE> W A A H H M M P <SPACE> w a H H M M P P <SPACE> M A K t <space> S A K P       v * ** t *** <SPACE> o n T <SPACE> O w * ē P e * * N   <SPACE> H I   Y o w ē N 
+HYP:  * E T T F ē t L ▁     M o N ▁ M v T <space> e T ▁ O W 3 1 - ̜ e T t ▁ N       A K 3 U D  F 5 t A       K V T ē s e ******* * * * * C E T T ▁     w a * * * * K K L       4 U F t <space> * D F <SPACE> v Y ē t ▁ H       o n * V       N w V D  H e T T ▁ C       T ▁ M o w ** T 
+Eval: D S S S S      I S       S   I S   S   I           I S   S S S S S S    I   I   S       S S S S S  S S   S       S S S S      D       D D D D S S S S S           D D D D S S S       S S S           D S S S         I I    I   S           D S       S   I S  S   I I S   S       S S   S     D  S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-ad7a4808-0998-4c91-b4c7-6b3583b163ec)
+Scores: (#C #S #D #I) 9 21 2 19
+REF:  * ******* ** *** M o N K v <SPACE> C V w I K V  s * * * *** * * * * * <SPACE> K I C A N <space> *** * * w * I k E K O <SPACE> t * A Y   e * N 
+HYP:  R <SPACE> ē ▁ H o * M v ▁     M O w T M ē s A T J ▁ F U L L 2 ▁     H O M V T <space> ▁ M O w T M k * V L I       t 1 T ▁ e M D 
+Eval: I I       I  I   S   D S   S       S S   S S S    I I I I   I I I I I S       S S S S S         I   I I   I S   D S S S         I S S     I S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-b178b83e-ef3b-4eae-8b89-ffa4b508178d)
+Scores: (#C #S #D #I) 7 12 2 7
+REF:  K E R R E   K U T <SPACE> ē m * E t <space> * * * O N t * S k e s *** * 
+HYP:  * * 9 C ▁ M O M ▁     O  m 3 F t <space> R R T 3 E t V L k e s ▁ H 
+Eval: D D S S S   S S S S       S    I S           I I I S S   I S       I   I 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-b8832a3e-8ce7-4b51-a6e0-4d055df0674c)
+Scores: (#C #S #D #I) 10 17 1 22
+REF:  *** * * ** * * *** * * * * *** * * * c *** * v S t O m * E H   C E t s * K E   K o * S <SPACE> K i * * C e t <SPACE> O M  A N 
+HYP:  ▁ O W ē T T ▁ V N I T ▁ N A K c ▁ H v * t V m 3 9 ▁ O M t s A T ▁ N o R P ▁     A i T A K e t V       K ē T T 
+Eval: I   I I I  I I I   I I I I I   I I I   I   I   D   S   I S S   S S     I S S   S   I S S       S   I I S     S       S S  S S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-c4b4aa39-7f22-41e7-94de-1c772ef7d1fc)
+Scores: (#C #S #D #I) 22 42 8 25
+REF:  *** * * e * * * * ******* H   e n * * <SPACE> i C E t * A  K W I k T   <SPACE> o w ē <SPACE> W I   T ē S <SPACE> k O N t * <SPACE> h V t A   ̨ <SPACE> m *** * * * O N t *** * * * * *** * <SPACE> O N K   o <SPACE> K   o W I   T <SPACE> v k E R R I C v * Y ē t * <SPACE> O W E   m V T s 
+HYP:  ▁ V P e S W V T <SPACE> ▁ e n E T T       i * S t H ē C 1 T k ▁ M       o w T  L       P ▁ A Y  T A       k * * t S D       h E t ▁ C  E       m ▁ Y E A H A t ▁ F U L L ▁ M A       H R ▁ o M       ▁ o M ▁ E F       v k * * * * * v L E N  t A T       A K ▁ m O N s 
+Eval: I   I I   I I I I I       S       I I S         D S   I S  S S S   S   S           S  S       S S   S S  S S         D D   I S         S   S   S  S         I   I I I S S   I   I I I I I   I S       S S S     S       S     S S   S S           D D D D D   I S S    I S       S S S     S S   
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-c74e404c-5586-4ea2-9b35-b6a81df658ec)
+Scores: (#C #S #D #I) 24 43 5 35
+REF:  A R I t *** <SPACE> a Y I t <SPACE> e * * R  O R V Y A N <SPACE> m v <SPACE> P e * n W V <space> * * O H L i * ******* k * * * * * A t *** * * * <SPACE> I e * * L E C V  N <SPACE> N a k * * ** * * e * t <SPACE> A N e * * *** * k ē Y E n * <space> * H E H   c * * * * i t <SPACE> O M V   Y A N 
+HYP:  * E T t ▁ T       a * T t 3       e T T ē N T 3 F 5 T ▁     m v ******* N e T n * T <space> K E T T T i S <SPACE> k I T C 8 V S t ▁ M O M U       S e N I S T H ē C A       T a k U S ē D H e T t K       V 3 e T T ▁ O k ** A T n T <space> F C 3 ▁ c U K O T i t K       E T ▁ E M T 
+Eval: D S S   I   S         D S   S         I I S  S S S S S S S           D       S   I   D S         I I S S S   I I         I I I I I S   I   I I I S       S   I I S S S S  S S       S     I I I  I I   I   S       S S   I I I   I   D  S S   I         I S S S     I I I I     S       S S S   S S S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-c8301dba-6e28-42d9-b017-e5540642b4ea)
+Scores: (#C #S #D #I) 17 38 4 25
+REF:  *** * C e * * * N   O K e * C v *** * K ē t * <SPACE> o W V T T <SPACE> o * *** * * * W A t <SPACE> t V L K ē      S <space> *** m V <SPACE> k E R R ē P e N <SPACE> C E K   o w ** * * *** V K ē t <space> C V C       K U C e * *** * * * * 
+HYP:  ▁ V P e S W V ▁ V P e S W v ▁ M A H  t 9 ▁     o * H 9 8 ▁     o C ▁ H V M K E t ******* t 3 B T <SPACE> 9 <space> ▁ m O N       k * * V U  C e F T       4 D ▁ o w ē S T ▁ O M E  t <space> N T <SPACE> E N T e N ▁ O M V K 
+Eval: I   I S   I I I S   S S   I S   I   I S S    I S         D S S S S         I I   I I I S S   D         S S S S       S         I     S S         D D S S  S   S S       S S S       I  I I I   S S S            S S S       S S S   I I   I I I I 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-c87b05be-33cd-41eb-8308-e359c084053c)
+Scores: (#C #S #D #I) 23 38 1 39
+REF:  * * *** h * * * V t v M <SPACE> M v <SPACE> U   e * * * W v * * <space> A K S U M K   ē t A t <SPACE> e * * *** * R a t *** * A t <SPACE> m * V <SPACE> H V t e * * *** * * C   E s K V  <SPACE> A K S U M K   v * * t * * ē <SPACE> M   A h u * * * * *** * * * * * * * s A t 
+HYP:  E T ▁ h O M P E t v E T       T v ******* ▁ e S I T T v L T <space> E T L E P ▁ V  t O t K       e T V ▁ H U a t ▁ O W t ▁     m O M 3       K E t e T T ▁ O S ▁ O s S ē E       T T L E P ▁ v T O t K E T  V       ▁ H h u E R E M ▁ E L E K E T 8 s E t 
+Eval: I I I     I I I S     S S       S   D       S     I I I S   I I         S S S S S S   S    S   S         I I I   I S     I   I S   S         I S S       S S     I I I   I I S   S   S S  S       S S S S S S     I I   I I S  S       S   S     I I I I I   I I I I I I I   S   
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-cb799d0f-42ed-4427-8eea-d65930cd4282)
+Scores: (#C #S #D #I) 15 25 1 18
+REF:  * M       O N t <space> M V   n <SPACE> M O M ē *** C V R A   N e * t * * <space> *** * s * *** * E N F V C C ē c E t <space> *** * o * * * *** m H o * * Y e K V 
+HYP:  R <SPACE> K E t <space> R ▁ n A       K U S ē ▁ O W T ▁ E e N t A H <space> ▁ O s T ▁ O S T P I T T V  c 8 t <space> ▁ M o N K V ▁ m * o M U S e N T 
+Eval: I S       S S           S S     S       S S S    I   S S S S   S   I   I I         I   I   I I   I S S S S S S S    S           I   I   I I I I     D   I I S   S S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-cc7553f0-7ef1-4956-beeb-3e248a8879cc)
+Scores: (#C #S #D #I) 18 21 3 38
+REF:  * *** * * * * m * O M ē  c e * T <SPACE> S v P ē Y E T <SPACE> F a k V <SPACE> ē * *** * * * * K V n * * V <SPACE> K   o m A t <space> * * * * * * R O r I c *** * v t * * ē *** * s * * * * *** * * * * * 
+HYP:  R ▁ N A K E m 2 E N ▁ c e M M ▁     M v * N  V S 3 ▁     W a k K T       ē F ▁ M O M U S E n D H E T       ▁ o m * t <space> K E T T A T P V r * c ▁ M v t U S ē ▁ E s T V M I ▁ P E R R O 
+Eval: I I   I I I I   I S S S       I S S       S   D S  S S S S       S     S S          I I   I I I I S S   I I S S       S       D           I I I I I I S S   D   I   I     I I    I   I   I I I I I   I I I I I 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-ce92a1d2-88a7-459f-9857-bc71f4e895e9)
+Scores: (#C #S #D #I) 22 38 1 36
+REF:  C e * K   I S S e * U <SPACE> H ē * ̨ R E   N <SPACE> m v * ******* *** H e * r * * *** * * I C E t <SPACE> f u * l *** * T <SPACE> O W a t S   K e * *** * n ** <SPACE> P u * * *** K I C E t <SPACE> p U M <SPACE> V h ******* ** A Y E   t * * * * *** <SPACE> o n * * *** * * * * 
+HYP:  K e T ▁ O M K e W V M       K ē A N  9 ▁ A ▁     m v T <SPACE> ▁ K e R r T M ▁ T A T U A t ▁     f u L l ▁ M V N       I T a t ▁ C e M ▁ O n į ▁     F u L L ▁ M V N A t ******* p V R S       A h <SPACE> ē O W ▁ t O L O S ▁ M       o n E M ▁ Y E A H 
+Eval: S   I S   S S S   I S S       S    I S  S S   S S           I I       I   S   I   I I I   I I S S S   S           I   I   I S S       S S     S   S   I I   I   I  S       S   I I I   S S S S   D         S S S       S   I       I  S S S     I I I I I   S           I I I   I I I I 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-d468895a-b8f1-468f-bc27-01dd390350dc)
+Scores: (#C #S #D #I) 21 42 7 30
+REF:  * * ******* *** * M o * W I S e * * * n * *** * * * * * <SPACE> M V   N <SPACE> m * *** * O W ē N <SPACE> v * *** p * O h * * k * V <SPACE> h a * * * * <SPACE> Y e <SPACE> t <SPACE> O K H O   H  y E k V <SPACE> M  V t ē K U       S   <SPACE> o * W I  S <SPACE> M v t O <SPACE> E   N k A <space> E   N k A 
+HYP:  E T <SPACE> ▁ E R o R E H C e T R A n T ▁ E E T T E T       T ▁ C E       m 8 ▁ H A K E  T T       v N ▁ p V L h V M k I T ▁     h a K 4 - 4 9       K e ******* t ******* I S P ▁ ą y * k * ******* ē E t ** * <SPACE> ▁ H       o K T ē R R       K v t I T       ▁ O k T <space> ▁ O k T 
+Eval: I I I       I   I S   I S S S   I I I   I I   I I I I I S       S S   S S         I I   I S S S  S S         I I     I S   I I   I S S           I I I I S       S   D         D       S S S S   S    D   D D       S  S   D  D S       S   S         I S S  S S       S     S S       S   S   S         S   S   S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-d4ccbc6c-d375-4d0f-b8f3-c09e9808c58e)
+Scores: (#C #S #D #I) 14 41 2 19
+REF:  M V N <space> *** * * * *** h o * * K t * * *** * * * ē <space> T A t <space> M O M       u s ** * * E N <space> E N H E C I K E N <SPACE> L I K E   P v R A       N E N <SPACE> O M ē s <SPACE> K I   H o * * H c *** E N 
+HYP:  * E T <space> ▁ E R P ▁ h o M P E t V R ▁ C U K O  <space> * F t <space> F T <SPACE> u s ē T 2 K V <space> A T V S T A N A T ▁     V 1 T ▁ M v T <SPACE> I T T ▁     N A K  s A       T ▁ N o R I T c ▁ O S 
+Eval: D S S         I   I I I I       I I S   I I I   I I I S          D S           S S S           I  I I S S         S S S S S S S S S S       S S S S   S   S S       S S S S       S S S    S       S S   S   I I S   I   S S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-d5d026bf-b31c-4cd3-9a8c-ac54e2ea7472)
+Scores: (#C #S #D #I) 12 26 4 10
+REF:  M O n t <space> O W A T E n <SPACE> P E R R O <SPACE> t V  M K  V <SPACE> V P I h K I t <space> * *** * V Y   V H a N t *** * * *** * * <space> *** O n 
+HYP:  * * n t <space> V C O K V n ******* K T V S T V       t ē S ē C ▁     Y E A h S E t <space> B ▁ O W ▁ O M a * t ▁ H B ▁ O W <space> ▁ E n 
+Eval: D D             S S S S S   D       S S S S S S         S  S S  S S       S S S   S S           I I   I S S   S S   D   I   I I I   I I         I   S   
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-d647ea42-9ed0-44c4-b1fb-b1f0b2d0e834)
+Scores: (#C #S #D #I) 29 46 7 38
+REF:  * M       O n T <SPACE> O   m * I s <SPACE> V N   E u <SPACE> A  Y U S ē <SPACE> H   A Y I   N <SPACE> V t * ē P e t <SPACE> m O m * U s *** * * * E n * <SPACE> C v *** c V k * ******* *** * I K  E t <SPACE> M o m * ** * * * * * *** * u S E N <space> C   V S ē P V N t V s * * <space> M A k e S A S v * * t *** * ē * * *** * * * * * * s 
+HYP:  R <SPACE> V n * ******* ▁ m V T s E       T ▁ S u ******* ̜ L K 8 E  T       ▁ C S ▁ A R       E t C A  K e t E       m * m T I s ▁ H O N V n W V       R v ▁ c U k O <SPACE> ▁ O W ē T t ▁     H o m V ē I 9 3 R V ▁ C u * K O <space> ▁ O W ē * * T t O s F 4 <space> - S k e T T K v E T t ▁ K ē R R ▁ E S T V M I s 
+Eval: I S       S   D D       S     I S   S       S S   S   D       S  S S S S  S       S   S S S   S S       S   I S  S     S         D   I S   I   I I I S   I S       S   I     S   I I       I   I S S  S   S       S     I I  I I I I I I   I   D S S         S   S S    D D S   S   I I         S S     S S S   I I   I   I    I I I   I I I I I I   
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-d8e5ca99-6ca7-43c9-abfe-95b809ce36a7)
+Scores: (#C #S #D #I) 7 18 1 11
+REF:  * * * ** * M  O N k A t <SPACE> M V t <SPACE> T A   Y ē t * * * t <SPACE> o W V C U K  K v * ** * 
+HYP:  R V T ē S ē T 3 k E t -       E T t M       C ▁ H V  t V M K t ▁     o * M E N ē T v T ē S 
+Eval: I I I I  I S  S S   S   S       S S   S       S S   S S    I I I   S         D S S S S  S   I I  I 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-dc2fdaa1-fb0f-4360-8c48-9715a49cb8d2)
+Scores: (#C #S #D #I) 17 43 3 25
+REF:  * N A   K <SPACE> S T O W i s * * ** <SPACE> m E ̄ C V k * *** * * *** a * * t <SPACE> m v N <space> *** * * ** * * N A K <SPACE> c * * * * O K V <SPACE> R   a K K O <space> M e * ̄ K U       S   V P k V N  <SPACE> H A Y e * t V   N <SPACE> O W ē * * S 
+HYP:  D H ▁ H E       H C I T i s T K ē ▁     m * A  K A k T ▁ O H ▁ a E T t ▁     m v T <space> ▁ O W ē T L P 8 T ▁     c V P U S E E C L       ▁ a R I T <space> * e T T  F <SPACE> ▁ O M k * ē ▁     M V O e T t ▁ C T       3 U ē P E N 
+Eval: I S S   S S       S S S S     I I I  S         D S  S S   I I   I I I     I I   S           S         I   I I I  I I S S S S         I I I I S S S S       S     S S S         D   I S  S S       S   S S   D S  S       S S S   I   S   S S       S S    I I S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-dcadd9a2-e9b1-47de-ae28-fe8868921cc2)
+Scores: (#C #S #D #I) 30 53 10 28
+REF:  * * * * * *** * * O H   H o m ******* P   E t V   <SPACE> c E N H E C H   o H Y e * N <SPACE> O W   A t <SPACE> N   A K E N <space> Y A C V K   e * * k o * N <SPACE> o W A t <SPACE> H   e R O M K e t S K e * n * <space> * * * * *** * * * h o Y a n *** * * t <space> O S  <SPACE> H V T A ̨ <SPACE> M A H O k e t <SPACE> O W e M V T s ** * 
+HYP:  I T C 8 T ▁ N A K ▁ M o m <SPACE> ▁ S t ▁ E       c * I T F T ▁ o * W e M V T       S ▁ C t ******* ▁ O M T O <space> * E T T ▁ e M T k o K E ▁     o * M t ******* ▁ e * * F V e t * T e C n T <space> A T V S ▁ M O N h o T a n ▁ E M t <space> * į ▁     F U L L E  K       V V S U k e t ▁     A Y e N 8 U s ē T 
+Eval: I I I I I I   I I S S   S     I       S   S   S   S         D S S S S S     D S   I S S       S S   S   D       S   S S S S         D S S S S     I I     I S S         D S   D       S     D D S S     D S   I   I         I I I I I   I I I     S     I   I I           D S  S       S S S S S  S       S S S S       S       S S   S S S   I  I 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-df8d7151-0755-459f-af9a-ccd76ce0dc09)
+Scores: (#C #S #D #I) 0 0 0 4
+REF:  * * * * 
+HYP:  4 - 4 9 
+Eval: I I I I 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-e31a3453-2709-46a9-8fce-2da380048e69)
+Scores: (#C #S #D #I) 11 27 8 17
+REF:  A L I H K e t <SPACE> H v s E <SPACE> O S S V <SPACE> F V c * * * C V N  <space> V H E c * * * * ē t *** * * <SPACE> L I K V s <SPACE> C V K I   h * * * ** c * * *** E N 
+HYP:  * * * * * e t ******* T v s C W       V A T - 8       I T c - 4 4 U S ē <space> * A T c A K K E A  t ▁ O W ▁     M O M U s ******* E N S ▁ h O M V ē c A K ▁ S T 
+Eval: D D D D D     D       S     S S       S S S S S       S S   I I I S S S          D S S   I I I I S    I   I I S       S S S S   D       S S S S     I I I I    I I I   S S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-e760a3e9-1efc-41a7-b410-d825471fc947)
+Scores: (#C #S #D #I) 21 46 13 12
+REF:  * * * * * *** S V M   m o n <SPACE> k E R R E <SPACE> m A H V K O t <SPACE> o s <SPACE> M V t <SPACE> H v T E <SPACE> C E M V n ē ̨ t T  U   S ē t <space> O w V t T   <SPACE> O W ē S   <SPACE> S t *** e <SPACE> C A K   <SPACE> a * R  C A t ** * *** <SPACE> M V N <SPACE> M <SPACE> h * M 
+HYP:  I T C C 9 ▁ O H ▁ m o n ******* k * * * T ▁     m V N B T P t ▁     o s ******* * * t ******* * v H A N       F 3 P A n ** ** t ē ▁ E M  t <space> * w A t ▁ M       V N V  ▁ E       M t ▁ e ******* M W ▁ H       a Y ē T V t ē S ▁ S       U K H V       T V       h A N 
+Eval: I I I I I I   S S S         D         D D D S S         S S S S S   S           D       D D   D       D   S S S       S S S S   D  D    S  S   S S            D   S   S   S       S S S  S   S       S   I     D       S S S   S         I S  S S   I  I I   S       S S S S       S S         I S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-e9bd72b4-6800-4d53-9d43-b8b4f409a9ec)
+Scores: (#C #S #D #I) 15 36 3 22
+REF:  * O N K V <SPACE> M V <space> *** * C e * * * * *** * * * * C k ** *** E <SPACE> t * * *** o n <SPACE> C E P U S E   <SPACE> T a k E   <SPACE> H v T a ̨ <SPACE> C E C   K U C e * <SPACE> o W A   K A t <space> * * M       V t ******* * 
+HYP:  E S B T I C       E T <space> ▁ E H e 3 D H F ▁ O S T P V k ē ▁ H V       t V M ▁ o n ******* * * T K V ▁ V       L a k ▁ A       R v Y a T  K       O F ▁ M A K e T ▁     o M ▁ C N t <space> E T <SPACE> B t <SPACE> U 
+Eval: I S S S S S       S S         I   I S   I I I I I   I I I I S   I  I   S S         I I I       D       D D S S S S   S       S     S   S       S   S   S  S       S S S   S S S   I S         S S   S S           I I S       S   I       I 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-eb2f8ec3-e5c7-46cb-aec3-cc2ed107a3d6)
+Scores: (#C #S #D #I) 15 21 3 27
+REF:  * * ** O H k * A L e ̄ <SPACE> M   o N K e * t *** * * * * * <SPACE> v * * *** * * * s *** * * * * *** o P E  t <SPACE> R e S V C v N   k T <SPACE> O W v C o K s * * * * 
+HYP:  I T ē T A k R W V e T  T       ▁ o H W e N t ▁ H O N V N W       v 1 T ▁ T A T s ▁ T A T T ▁ o W ē t ******* T e * T T v ▁ k * E       R R v K o T s E T T V 
+Eval: I I I  S S   I S S   S  S       S     S S   I   I   I I I I I S         I I I   I I I   I   I I I I I     S S    D       S   D S S   S     D S       S S   S   S   I I I I 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-ec625fb8-6485-456a-81ab-c831eba0d388)
+Scores: (#C #S #D #I) 12 14 4 21
+REF:  * M O   M u S E N <SPACE> o * h * W V k I K e * * * N <space> *** s A k <SPACE> v P ē *** * * * * *** * * * *** * * * Y v * T ē s 
+HYP:  R V ▁ C u * * * K       o D h I T C k T L e T I F T <space> ▁ s U k H       v * ē ▁ C E M M ▁ M V N ▁ M O N K v E M M  s 
+Eval: I S S   S   D D D S         I   I S S   S S   I I I S         I     S   S         D    I   I I I I I   I I I I   I I I S   I S S    
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-ef010edd-bfc3-4baa-b7ba-7f279348413d)
+Scores: (#C #S #D #I) 14 35 7 9
+REF:  * * * M V O <SPACE> O S a F k * E <space> *** h E  ̨ r * ******* e ̄ N <SPACE> H a * Y ē t <SPACE> O W e ̄ S <SPACE> K V P E   <SPACE> C V F K E <SPACE> e S H A H O Y E n * <SPACE> o W A t 
+HYP:  R Y E T T 3 ▁     V L a * k F T <space> ▁ h ē ̨ r T <SPACE> e ** T T       2 a K A N  t ******* * S e T  T ē      T I S ▁ O       H L 9 T - 4       e * * T T V R A n T ▁     o * E t 
+Eval: I I I S S S S       S S   D   I S         I     S       I I         D  S S       S   I S S    D       D S   S  S S       S S S S   S       S S S S S S         D D S S S S S   I S         D S   
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-f33a23b2-fbc6-4b67-ad01-fc095f0d86fa)
+Scores: (#C #S #D #I) 16 26 5 28
+REF:  *** * * *** ** * * M v <SPACE> t A K   S v P U L   K v * *** * * * <space> * * * * * * *** R a k * k * *** o * * * * N <SPACE> e N H O   m * E C   e P ē t <SPACE> V R ē P E t <SPACE> O H   m * V t E       T 
+HYP:  ▁ E S ▁ ē - 4 P v ******* t * ▁ M v N B ▁ M v N ▁ O M T <space> I S T H A Y ▁ M a k A k T ▁ o S T I S T 3       e * T ▁ m V N ▁ e L E  t ******* T I S  3 I t ******* C ▁ m O N t <SPACE> U 
+Eval: I   I I I   I  I I S   D         D S   S   S S S   S   I I   I I I         I I I I I I I   S     I   I I     I I I I S S         D S S     I S S     S S    D       S S S  S S   D       S S     I S   S       S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-f34c7353-a95c-41b9-9701-885952a75162)
+Scores: (#C #S #D #I) 4 18 0 4
+REF:  * H I Y O W       ē n * * <SPACE> M e H C E t * <SPACE> O H T ē  H E t 
+HYP:  E T T N T <SPACE> A  n A T ▁     V e N T I t C ▁     L I K ▁ M V t 
+Eval: I S S S S S       S    I I S       S   S S S   I S       S S S S   S S   
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-f3886a1c-fd3d-4c26-b4bd-0562c89754b8)
+Scores: (#C #S #D #I) 19 28 6 20
+REF:  M u * ** * * ** c * v <SPACE> T a * * t <SPACE> M v <space> * N A k e <SPACE> O M A t * <SPACE> V w * * O L A t <SPACE> S E   K O t <space> *** o * * * * M I s * * *** <SPACE> o S <SPACE> K  i C E t <SPACE> O M   E N 
+HYP:  R u S ē 1 T ē c H v ******* H a N E t T       K v <space> I T T k e T       T E T t 8 ▁     O w T 5 - 8 I t ******* T ▁ Y V t <space> ▁ o N K A T A T s A T ▁ N       o * R       ą i * * t ******* T ▁ Y V 
+Eval: S   I I  I I I    I   D       S   I I   S       S           I S S     S       S S S   I S       S   I I S S S   D       S S   S S           I     I I I I S S   I I I   S         D S       S    D D   D       S S   S S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-f5cdcd07-c405-417f-9f2a-60b9b47d36b0)
+Scores: (#C #S #D #I) 18 32 5 19
+REF:  Y E   a * *** * H <SPACE> S t e * * * * * <SPACE> H v * C k o <SPACE> t I S <SPACE> A k * H   O T k ē <SPACE> o * N T <SPACE> t V p O C K E N   <SPACE> a k H O t *** K v K ē P ē t * <SPACE> o * * * * * *** N 
+HYP:  * ▁ a R ▁ O N E       N t e S A S V T ē      S v K E k o ******* t * * 2       E k V ▁ S E k O  ▁     o K A K A       t 1 p V A N T ▁ M       a k * E t ▁ S v M I  C E  t 3 ▁     o M 9 T I S ▁ O 
+Eval: D S     I I   I S S       S     I I I I I S       S   I S     D         D D S       S   I S   S S   S  S         I S S S         S   S S S S S   S           D S   I   S   S S  S S    I S         I I I I I I   S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-f786cb72-bd56-484b-bb89-725156c94654)
+Scores: (#C #S #D #I) 10 10 3 15
+REF:  H V t * e * * *** <SPACE> h E c ** *** * v K A   t <SPACE> H o * * * * *** * *** F o * N e <SPACE> t A N 
+HYP:  E T t P e T 9 ▁ O       h * c ē ▁ M v N ▁ t O       L o S P V T ▁ E ▁ H o M P e ******* t * V 
+Eval: S S   I   I I I   S         D   I  I   I   S S     S       S   I I I I I   I I   S   I S   D         D S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-f83c3d39-ec6e-4164-8dd4-8311ac8b9bfa)
+Scores: (#C #S #D #I) 26 43 10 27
+REF:  i * * E P  U Y   o * P K e * t * <SPACE> O M E t *** * S k * E K   o <SPACE> m V <SPACE> e P U Y   O P k *** * * * * *** A t <SPACE> W   I H k E T  <SPACE> m o * * * * N T <space> E C C V  O <space> *** * * w V k E H C e * t ** *** * <SPACE> A v t E S <space> C V k I C e T <SPACE> o * * M E   N 
+HYP:  i S T H ē C ▁ o W I S e N t 3 9       3 I T t ▁ N A k 3 9 ▁ o ******* m * ▁     e S F ▁ S A k ▁ F U L L ▁ C t ******* ▁ S A k * ē ▁     m o W C W V 3 R <space> F U S ē T <space> ▁ M O w C k * V 3 e T t ̨ ▁ H O       M v t K V <space> * * k * * e * ▁     o S 5 T ▁ V 
+Eval:   I I S S  S S     I S S   I   I S       S S S   I   I S   I S S     D         D S         S S S   S S   I   I I I I I   S   D       S   S S   D S  S           I I I I S S         S S S S  S         I   I I   S   D S S   I   I  I   I S       S     S S         D D   D D   D S         I I S S   S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-fa5005a9-4b1c-46df-82eb-e69e1175d594)
+Scores: (#C #S #D #I) 17 26 8 20
+REF:  M O M E N <SPACE> N E t t *** * v <SPACE> h * V M K e N <SPACE> M   v * * * <space> H O K t ē <SPACE> S E p * * * E   K o n <SPACE> Y v F K v R   A N E t <space> * * *** o * * M   e * * * *** * * N 
+HYP:  * * * * * ******* R I t t ▁ Y v D       h D H F - e T T       ▁ v Y A T <space> K E T t E  C       8 L p F O S ▁ H o n ******* * v N W v ▁ M V T t <space> I B ▁ o W T ▁ e I T T ▁ Y V D 
+Eval: D D D D D D       S S     I   I   S         I S S S   S S       S     I I I         S S S   S  S       S S   I I I S   S     D       D   S S   S   S S S           I I I     I I S     I I I I   I I S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-fc0dfbb4-aa16-4c71-94f1-caeade526e1a)
+Scores: (#C #S #D #I) 8 16 4 14
+REF:  * * * * ******* M V <space> * M a H e n * * * * <SPACE> O K ē P e * * * ** n <SPACE> A ̜ Y E t <SPACE> E R   o R A N 
+HYP:  K E T T <SPACE> I S <space> I T a T e n C U L L I       C T I  S e T T C ē n ******* 3 F  C 5 t ******* * ▁ o * W T 
+Eval: I I I I I       S S         I S   S     I I I I S       S S S  S   I I I I    D       S S  S S   D       D S     D S S 
+
+id: (24745f73-d9d3-4426-b9b3-22d7373a0c3e-24745f73-d9d3-4426-b9b3-22d7373a0c3e-fd416b60-e7bd-45c9-9711-f5daf7a2d768)
+Scores: (#C #S #D #I) 5 19 3 4
+REF:  * * e * C C V <SPACE> t * I S <SPACE> V   m <SPACE> V w I K E N <space> W A K K V T  E N 
+HYP:  F 3 e N U S E T       t V H A N       ▁ m ******* O w T M A T <space> * * E T L ē U D 
+Eval: I I   I S S S S         I S S S       S     D       S   S S S S         D D S S S S  S S 
+
+
